@@ -4,8 +4,8 @@
   "description": "a graphic design portfolio app for Dex",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js",
-    "build": "webpack --config webpack.prod.config.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,11 +28,12 @@
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0",
-    "write-file-webpack-plugin": "^4.5.1"
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }

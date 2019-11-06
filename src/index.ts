@@ -1,7 +1,8 @@
 import * as $ from 'jquery'
+import 'bootstrap'
 
-import header from './components/header'
+import Header from './components/header'
 
 $("#root").append(
-  header
+  Header()
 ) as JQuery<HTMLDivElement>
