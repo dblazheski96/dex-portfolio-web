@@ -1,8 +1,4 @@
-import * as $ from 'jquery'
-import 'bootstrap'
+import App from './app'
+import { NavOpt } from './models/navOpts'
 
-import Header from './components/header'
-
-$("#root").append(
-  Header()
-) as JQuery<HTMLDivElement>
+App(NavOpt.None)
