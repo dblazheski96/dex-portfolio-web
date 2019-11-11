@@ -1,13 +1,14 @@
 .header {
-  font-family: 'Lexend Exa', sans-serif;
+  margin-top: 16em;
 }
 
 .title {
-  font-size: 4.2em;
+  margin-bottom: 1em;
 }
 
 .career {
-  font-size: 1.17em;
+  font-size: 1.05em;
+  letter-spacing: 0.9em;
 }
 
 .icon {

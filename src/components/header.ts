@@ -1,8 +1,7 @@
 import * as $ from 'jquery'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'animate.css'
 
 import './header.css'
+import titleSvg from '../assets/titleSvg'
 
 export default function(): JQuery<HTMLDivElement> {
   return (
@@ -11,7 +10,7 @@ export default function(): JQuery<HTMLDivElement> {
       $("<div>").addClass("row justify-content-center").append(
         $("<div>").addClass("col-8").append(
           $("<div>").addClass("title text-center text-uppercase animated bounce")
-            .text("Dex")
+            .html(titleSvg)
         )
       ),
       $("<div>").addClass("row justify-content-center").append(
@@ -23,7 +22,7 @@ export default function(): JQuery<HTMLDivElement> {
       $("<div>").addClass("row justify-content-center").append(
         $("<div>").addClass("col-8").append(
           $("<div>").addClass("icon text-center animated pulse infinite delay-2s")
-            .text("=>")
+            .html("<i class='fas fa-caret-down'></i>")
         )
       )
     ) as JQuery<HTMLDivElement>

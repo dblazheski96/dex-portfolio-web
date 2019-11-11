@@ -1,5 +1,4 @@
 import * as $ from 'jquery'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './item.css'
 import { ItemModel } from '../models/itemModel'
