@@ -4,18 +4,34 @@ import './body.css'
 import { NavOpt } from '../models/navOpts'
 import { ItemModel } from '../models/itemModel'
 import Item from './item'
+import ItemModal from './itemModal'
 
 export default function(navOpt: NavOpt): JQuery<HTMLDivElement> {
+
+  let currentItem: ItemModel = null
+
+  function setCurrentItem(item: ItemModel): void {
+    currentItem = item
+  }
+
   return (
     $("<div>").addClass("body container-fluid").append(
       $("<div>").addClass("row justify-content-center").append(
         items
           .filter(i => i.category === navOpt)
           .map(i => $("<div>").addClass("col-sm-9 col-lg-5 col-xl-4").append(
-            Item(i)
+            Item(i, setCurrentItem)
           )
         )
-      )
+      ),
+      ItemModal(currentItem)
+        .on("show.bs.modal", () => {
+          $("#itemModalAnim").addClass("animated fadeIn")
+          ItemModal(currentItem)
+        })
+        .on("hide.bs.modal", () => {
+          $("#itemModalAnim").removeClass().addClass("animated fadeOut")
+        })
     ) as JQuery<HTMLDivElement>
   )
 }

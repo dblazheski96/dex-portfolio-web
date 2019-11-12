@@ -1,7 +1,7 @@
 import * as $ from 'jquery'
 
 import './header.css'
-import titleSvg from '../assets/titleSvg'
+import title from '../assets/title.svg'
 
 export default function(): JQuery<HTMLDivElement> {
   return (
@@ -10,7 +10,7 @@ export default function(): JQuery<HTMLDivElement> {
       $("<div>").addClass("row justify-content-center").append(
         $("<div>").addClass("col-8").append(
           $("<div>").addClass("title text-center text-uppercase animated bounce")
-            .html(titleSvg)
+            .html(title)
         )
       ),
       $("<div>").addClass("row justify-content-center").append(
