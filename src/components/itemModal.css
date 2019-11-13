@@ -1,0 +1,24 @@
+@-webkit-keyframes backdrop-fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.9;
+  }
+}
+
+@keyframes backdrop-fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.9;
+  }
+}
+
+.backdrop-fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: backdrop-fadeIn;
+}

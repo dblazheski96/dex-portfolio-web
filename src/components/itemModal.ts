@@ -1,5 +1,6 @@
 import * as $ from 'jquery'
 
+import './itemModal.css'
 import { ItemModel } from '../models/itemModel'
 
 export default function(item: ItemModel): JQuery<HTMLDivElement> {
@@ -7,7 +8,7 @@ export default function(item: ItemModel): JQuery<HTMLDivElement> {
   let modalEl: JQuery<HTMLDivElement> = $("#itemModal")
   if(!modalEl.length) {
     modalEl = 
-      $("<div>").addClass("modal")
+      $("<div>").addClass("modal animated")
         .attr("id", "itemModal")
         .attr("tabindex", "-1")
         .attr("role", "dialog") as JQuery<HTMLDivElement>
@@ -28,7 +29,19 @@ export default function(item: ItemModel): JQuery<HTMLDivElement> {
 
   modalEl.html("").append(
     modalContent
-  )
+  ).on("hide.bs.modal", () => {
+      modalEl.removeClass("zoomIn").addClass("zoomOut")
+    })
+    .on("hidden.bs.modal", () => {
+
+    })
+    .on("show.bs.modal", () => {
+      modalEl.removeClass("zoomOut").addClass("zoomIn faster")
+    })
+    .on("shown.bs.modal", () => {
+      // modalEl.removeClass("zoomIn").addClass("zoomOut")
+      $(".modal-backdrop").addClass("animated backdrop-fadeIn faster")
+    })
 
   return modalEl
 }

@@ -8,7 +8,7 @@ import ItemModal from './itemModal'
 
 export default function(navOpt: NavOpt): JQuery<HTMLDivElement> {
 
-  let currentItem: ItemModel = null
+  let currentItem: ItemModel = items[1]
 
   function setCurrentItem(item: ItemModel): void {
     currentItem = item
@@ -25,13 +25,13 @@ export default function(navOpt: NavOpt): JQuery<HTMLDivElement> {
         )
       ),
       ItemModal(currentItem)
-        .on("show.bs.modal", () => {
-          $("#itemModalAnim").addClass("animated fadeIn")
-          ItemModal(currentItem)
-        })
-        .on("hide.bs.modal", () => {
-          $("#itemModalAnim").removeClass().addClass("animated fadeOut")
-        })
+        // .on("show.bs.modal", () => {
+        // //   $("#itemModalAnim").addClass("animated fadeIn")
+        //   ItemModal(currentItem)
+        // })
+        // .on("hide.bs.modal", () => {
+        // //   $("#itemModalAnim").addClass("animated fadeOut")
+        // })
     ) as JQuery<HTMLDivElement>
   )
 }
