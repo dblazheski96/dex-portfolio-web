@@ -1,1 +1,1 @@
-export enum NavOpt {None, Logos, SocialMedia, Print}
+export enum NavOpt {None, Logos, Events, Print}

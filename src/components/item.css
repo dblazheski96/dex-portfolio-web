@@ -1,3 +1,15 @@
-.item {
-  margin: 14%;
+.itemNone {
+  margin: 22%;
+}
+
+.itemLogo {
+  margin: 26%;
+}
+
+.itemEvent {
+  margin: 18%;
+}
+
+.itemPrint {
+  margin: 26%;
 }

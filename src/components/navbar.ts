@@ -12,8 +12,8 @@ export default function(): JQuery<HTMLUListElement> {
           .on("click", () => App(NavOpt.Logos)),
       ),
       $("<li>").addClass("nav-item").append(
-        $("<div>").addClass("nav-style nav-link").text("SOCIAL MEDIA")
-          .on("click", () => App(NavOpt.SocialMedia)),
+        $("<div>").addClass("nav-style nav-link").text("EVENTS")
+          .on("click", () => App(NavOpt.Events)),
       ),
       $("<li>").addClass("nav-item").append(
         $("<div>").addClass("nav-style nav-link").text("PRINT")
