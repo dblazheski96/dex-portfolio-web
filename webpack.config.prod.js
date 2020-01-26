@@ -1,5 +1,5 @@
 const path = require('path')
-const HtmlPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: "production",
@@ -30,16 +30,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js']
-  },
-  plugins: [
-    new HtmlPlugin({
-      title: 'Dex Portfolio',
-      favicon: '',
-      scripts: [
-        {
-          src: '/bundle.js'
-        }
-      ]
-    })
-  ]
+  }
 }

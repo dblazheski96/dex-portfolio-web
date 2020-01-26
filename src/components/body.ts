@@ -182,5 +182,60 @@ const items: Array<ItemModel>  = [
     img: "https://i.imgur.com/Mhnvnfh.jpg",
     imgPopup: "https://i.imgur.com/Mhnvnfh.jpg"
   } as ItemModel,
+
+  {
+    title: "vedrina-i-srekja",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/br5RMpF.jpg",
+    imgPopup: "https://i.imgur.com/br5RMpF.jpg"
+  } as ItemModel,
+  {
+    title: "104m-komfor",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/7YQccar.jpg",
+    imgPopup: "https://i.imgur.com/7YQccar.jpg"
+  } as ItemModel,
+  {
+    title: "dds-building",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/RLAvv1o.jpg",
+    imgPopup: "https://i.imgur.com/RLAvv1o.jpg"
+  } as ItemModel,
+  {
+    title: "wedding",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/4QD8b2m.png",
+    imgPopup: "https://i.imgur.com/4QD8b2m.png"
+  } as ItemModel,
+  {
+    title: "winter-2019-challange",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/aDdzrR7.jpg",
+    imgPopup: "https://i.imgur.com/aDdzrR7.jpg"
+  } as ItemModel,
+  {
+    title: "honeymoon",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/eAmR0KW.png",
+    imgPopup: "https://i.imgur.com/eAmR0KW.png"
+  } as ItemModel,
+  {
+    title: "eho",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/hoNtaMC.jpg",
+    imgPopup: "https://i.imgur.com/hoNtaMC.jpg"
+  } as ItemModel,
+  {
+    title: "esnaf-",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/7QWABiS.jpg",
+    imgPopup: "https://i.imgur.com/7QWABiS.jpg"
+  } as ItemModel,
+  {
+    title: "50m-ljubov",
+    category: NavOpt.Print,
+    img: "https://i.imgur.com/CBmBY4A.jpg",
+    imgPopup: "https://i.imgur.com/CBmBY4A.jpg"
+  } as ItemModel,
   
 ]
