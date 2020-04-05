@@ -1,6 +1,6 @@
-import { NavOpt } from '../models/navOpts'
+import { NavOpt } from './nav-opt'
 
-export interface ItemModel {
+export type ItemModel = {
   title: string
   category: NavOpt,
   img: string,

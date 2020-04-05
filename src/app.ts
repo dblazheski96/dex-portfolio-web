@@ -5,15 +5,16 @@ import 'animate.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 import './app.css'
-import { NavOpt } from './models/navOpts'
-import Header from './components/header'
-import Navbar from './components/navbar'
-import Body from './components/body'
+import Header from './components/header/header'
+import Navbar from './components/nav/nav-bar'
+import Body from './components/body/body'
 
-export default function(navOpt: NavOpt): void {
+const App = (): void => {
   $("#root").html("").append(
     Header(),
     Navbar(),
-    Body(navOpt)
+    Body()
   )
 }
+
+export default App

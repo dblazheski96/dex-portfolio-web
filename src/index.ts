@@ -1,4 +1,6 @@
+import { NavOpt } from './models/nav-opt'
+import store from './store/store'
 import App from './app'
-import { NavOpt } from './models/navOpts'
 
-App(NavOpt.None)
+store.navOpt = NavOpt.None
+App()

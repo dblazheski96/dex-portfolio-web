@@ -1,1 +1,0 @@
-export enum NavOpt {None, Logos, Events, Print}
