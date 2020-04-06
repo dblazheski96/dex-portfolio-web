@@ -1,0 +1,30 @@
+@-webkit-keyframes client-details-backdrop-fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
+}
+
+@keyframes client-details-backdrop-fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
+}
+
+.client-details-backdrop-fadeIn {
+  background-color: white;
+  z-index: 100;
+  -webkit-animation-name: client-details-backdrop-fadeIn;
+  animation-name: client-details-backdrop-fadeIn;
+}
+
+#clientDetailsModal {
+  z-index: 101;
+}

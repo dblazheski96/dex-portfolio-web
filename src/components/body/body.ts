@@ -2,12 +2,12 @@ import * as $ from 'jquery'
 
 import './body.css'
 import { NavOpt } from '../../models/nav-opt'
-import { ItemModel } from '../../models/item-model'
 import store from '../../store/store'
 import LogosLayout from './layout/logos'
 import ClientsLayout from './layout/clients'
 import ServicesLayout from './layout/services'
-import ItemModal from './item/item-modal'
+import ItemModal from './modal/item-modal'
+import ClientDetailsModal from './modal/client-details-modal'
 
 const Body = (): JQuery<HTMLDivElement> =>
   $("<div>").addClass("body container-fluid").append(
@@ -16,14 +16,8 @@ const Body = (): JQuery<HTMLDivElement> =>
     store.navOpt === NavOpt.Services ? ServicesLayout() :
     $("<div>").addClass("no-layout"),
 
-    ItemModal()
+    ItemModal(),
+    ClientDetailsModal()
   ) as JQuery<HTMLDivElement>
-
-Body.events = {
-  onItemClick: (item: ItemModel) => {
-    store.currentItem = item
-    $("#itemModal").modal('toggle')
-  }
-}
 
 export default Body

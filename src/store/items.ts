@@ -1,7 +1,8 @@
 import { NavOpt } from '../models/nav-opt'
 import { ItemModel } from '../models/item-model'
+import { ItemClientModel } from '../models/item-client-model'
 
-export const items: Array<ItemModel> = [
+export const logoItems: Array<ItemModel> = [
   {
     title: "esnaf",
     category: NavOpt.Logos,
@@ -74,123 +75,67 @@ export const items: Array<ItemModel> = [
     img: "https://i.imgur.com/2i6G4uz.jpg",
     imgPopup: "https://i.imgur.com/2i6G4uz.jpg"
   } as ItemModel,
+]
 
-  // {
-  //   title: "dzenan",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/n2liodb.jpg",
-  //   imgPopup: "https://i.imgur.com/n2liodb.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "jala-brat",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/3yIGQCx.jpg",
-  //   imgPopup: "https://i.imgur.com/3yIGQCx.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "thcf",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/QeE3aGr.jpg",
-  //   imgPopup: "https://i.imgur.com/QeE3aGr.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "teodora",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/geUi7ol.png",
-  //   imgPopup: "https://i.imgur.com/geUi7ol.png"
-  // } as ItemModel,
-  // {
-  //   title: "natasa-bekvalac",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/cXemCdg.jpg",
-  //   imgPopup: "https://i.imgur.com/cXemCdg.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "amar-gile",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/TeaAFDs.png",
-  //   imgPopup: "https://i.imgur.com/TeaAFDs.png"
-  // } as ItemModel,
-
-
+export const clientItems: Array<ItemClientModel> = [
   {
+    id: 1,
     title: "mc-stojan",
+    desc: "desc1",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
   {
+    id: 2,
     title: "mc-stojan",
+    desc: "desc2",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
   {
+    id: 3,
     title: "mc-stojan",
+    desc: "desc3",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
   {
+    id: 4,
     title: "mc-stojan",
+    desc: "desc4",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
   {
+    id: 5,
     title: "mc-stojan",
+    desc: "desc5",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
   {
+    id: 6,
     title: "mc-stojan",
+    desc: "desc6",
     category: NavOpt.Clients,
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
-  } as ItemModel,
+    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
+    clientDetailItems: logoItems
+  } as ItemClientModel,
+]
 
-
-
-
-  {
-    title: "mc-stojan",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/8sBb6os.jpg",
-    imgPopup: "https://i.imgur.com/8sBb6os.jpg"
-  } as ItemModel,
-  {
-    title: "bouble-b",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/KXXX2vn.jpg",
-    imgPopup: "https://i.imgur.com/KXXX2vn.jpg"
-  } as ItemModel,
-  {
-    title: "pedja",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/pvcpk2g.png",
-    imgPopup: "https://i.imgur.com/pvcpk2g.png"
-  } as ItemModel,
-  {
-    title: "otvaranje-esnaf",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/M6Q1gse.png",
-    imgPopup: "https://i.imgur.com/M6Q1gse.png"
-  } as ItemModel,
-  {
-    title: "eho-na-minatoto",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ay4m87h.jpg",
-    imgPopup: "https://i.imgur.com/ay4m87h.jpg"
-  } as ItemModel,
-  {
-    title: "all-day-party",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/Mhnvnfh.jpg",
-    imgPopup: "https://i.imgur.com/Mhnvnfh.jpg"
-  } as ItemModel,
-
-  // {
+export const printItems: Array<ItemModel> = [
+    // {
   //   title: "vedrina-i-srekja",
   //   category: NavOpt.Print,
   //   img: "https://i.imgur.com/br5RMpF.jpg",
@@ -244,5 +189,80 @@ export const items: Array<ItemModel> = [
   //   img: "https://i.imgur.com/CBmBY4A.jpg",
   //   imgPopup: "https://i.imgur.com/CBmBY4A.jpg"
   // } as ItemModel
-  
+]
+
+export const socialMediaItems: Array<ItemModel> = [
+    // {
+  //   title: "dzenan",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/n2liodb.jpg",
+  //   imgPopup: "https://i.imgur.com/n2liodb.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "jala-brat",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/3yIGQCx.jpg",
+  //   imgPopup: "https://i.imgur.com/3yIGQCx.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "thcf",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/QeE3aGr.jpg",
+  //   imgPopup: "https://i.imgur.com/QeE3aGr.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "teodora",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/geUi7ol.png",
+  //   imgPopup: "https://i.imgur.com/geUi7ol.png"
+  // } as ItemModel,
+  // {
+  //   title: "natasa-bekvalac",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/cXemCdg.jpg",
+  //   imgPopup: "https://i.imgur.com/cXemCdg.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "amar-gile",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/TeaAFDs.png",
+  //   imgPopup: "https://i.imgur.com/TeaAFDs.png"
+  // } as ItemModel,
+
+  // {
+  //   title: "mc-stojan",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/8sBb6os.jpg",
+  //   imgPopup: "https://i.imgur.com/8sBb6os.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "bouble-b",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/KXXX2vn.jpg",
+  //   imgPopup: "https://i.imgur.com/KXXX2vn.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "pedja",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/pvcpk2g.png",
+  //   imgPopup: "https://i.imgur.com/pvcpk2g.png"
+  // } as ItemModel,
+  // {
+  //   title: "otvaranje-esnaf",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/M6Q1gse.png",
+  //   imgPopup: "https://i.imgur.com/M6Q1gse.png"
+  // } as ItemModel,
+  // {
+  //   title: "eho-na-minatoto",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/ay4m87h.jpg",
+  //   imgPopup: "https://i.imgur.com/ay4m87h.jpg"
+  // } as ItemModel,
+  // {
+  //   title: "all-day-party",
+  //   category: NavOpt.Clients,
+  //   img: "https://i.imgur.com/Mhnvnfh.jpg",
+  //   imgPopup: "https://i.imgur.com/Mhnvnfh.jpg"
+  // } as ItemModel,
 ]

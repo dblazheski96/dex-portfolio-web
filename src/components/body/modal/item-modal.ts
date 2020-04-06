@@ -1,19 +1,27 @@
 import * as $ from 'jquery'
 
 import './item-modal.css'
+import helpers from '../helpers'
 import store from '../../../store/store'
 
 const events = {
   onShowBsModal: () => {
+    const item = helpers.getCurrentItem()
+  
     $("#itemModal").addClass("zoomIn faster")
     $("#itemModalContent").html("").append(
-      store.currentItem ? 
-      $("<img>").addClass("img-fluid").attr("src", store.currentItem.img).attr("alt", store.currentItem.title) :
+      item ? 
+      $("<img>").addClass("img-fluid").attr("src", item.img).attr("alt", item.title) :
       $("<img>").addClass("img-fluid")
     )
   },
   onShownBsModal: () => {
+    store.itemModalOpen = true
     $(".modal-backdrop").addClass("animated backdrop-fadeIn faster")
+  },
+  onHiddenBsModal: () => {
+    store.itemModalOpen = false
+    helpers.adjustModals()
   }
 }
 
@@ -24,6 +32,7 @@ const ItemModal = (): JQuery<HTMLDivElement> =>
   .attr("role", "dialog")
   .on("show.bs.modal", events.onShowBsModal)
   .on("shown.bs.modal", events.onShownBsModal)
+  .on("hidden.bs.modal", events.onHiddenBsModal)
   .append(
     $("<div>").addClass("modal-dialog modal-dialog-centered").attr("role", "document").append(
       $("<div>").attr("id", "itemModalContent")

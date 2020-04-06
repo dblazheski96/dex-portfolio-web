@@ -5,8 +5,7 @@ import ItemClient from '../item/item-client'
 
 const ClientsLayout = (): JQuery<HTMLDivElement> =>
   $("<div>").addClass("row justify-content-center").append(
-    store.items
-      .filter(item => item.category === store.navOpt)
+    store.clientItems
       .map(item => ItemClient(item))
   ) as JQuery<HTMLDivElement>
 

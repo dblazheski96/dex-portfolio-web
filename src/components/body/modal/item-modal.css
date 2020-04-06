@@ -19,6 +19,16 @@
 }
 
 .backdrop-fadeIn {
-  -webkit-animation-name: fadeIn;
+  z-index: 200;
+  -webkit-animation-name: backdrop-fadeIn;
   animation-name: backdrop-fadeIn;
+}
+
+#itemModal {
+  z-index: 201;
+}
+
+.itemModalContent {
+  max-height: 90vh;
+  height: 90vh;
 }

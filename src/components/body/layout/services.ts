@@ -5,8 +5,7 @@ import ItemLogo from '../item/item-logo'
 
 const ServicesLayout = (): JQuery<HTMLDivElement> =>
   $("<div>").addClass("row justify-content-center").append(
-    store.items
-      .filter(item => item.category === store.navOpt)
+    store.logoItems
       .map(item => ItemLogo(item))
   ) as JQuery<HTMLDivElement>
 
