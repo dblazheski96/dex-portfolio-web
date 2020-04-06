@@ -1,10 +1,8 @@
-import { ItemModel } from "./item-model";
+import { ItemClientDetailsModel } from "./item-client-details-model";
 
 export type ItemClientModel = {
-  id?: number,
-  title?: string,
-  desc?: string,
-  img?: string,
-  imgPopup?: string,
-  clientDetailItems?: Array<ItemModel>
+  id?: number
+  title?: string
+  img?: string
+  clientDetails?: ItemClientDetailsModel
 }

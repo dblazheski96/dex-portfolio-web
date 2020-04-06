@@ -1,8 +1,8 @@
-import { NavOpt } from "../models/nav-opt";
+import { NavOpt } from '../models/nav-opt'
 import { ItemModel } from '../models/item-model'
 
 import { logoItems, clientItems } from './items'
-import { ItemClientModel } from "../models/item-client-model";
+import { ItemClientModel } from '../models/item-client-model'
 
 type Store = {
   navOpt: NavOpt
@@ -12,7 +12,7 @@ type Store = {
   clientItems: Array<ItemClientModel>
   currentLogoItem: ItemModel
   currentClientItem: ItemClientModel
-  currentClientDetailItem: ItemModel
+  currentClientPanelItem: ItemModel
 }
 
 const store: Store = {
@@ -23,7 +23,7 @@ const store: Store = {
   clientItems: clientItems,
   currentLogoItem: logoItems[0],
   currentClientItem: clientItems[0],
-  currentClientDetailItem: clientItems[0].clientDetailItems[0]
+  currentClientPanelItem: clientItems[0].clientDetails.panels[0].panelItems[0]
 }
 
 export default store

@@ -1,6 +1,6 @@
-@-webkit-keyframes backdrop-fadeIn {
+@-webkit-keyframes item-backdrop-fade-in {
   from {
-    opacity: 0;
+    opacity: 0.0;
   }
 
   to {
@@ -8,9 +8,19 @@
   }
 }
 
-@keyframes backdrop-fadeIn {
+@-webkit-keyframes item-backdrop-fade-out {
   from {
-    opacity: 0;
+    opacity: 0.9;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
+@keyframes item-backdrop-fade-in {
+  from {
+    opacity: 0.0;
   }
 
   to {
@@ -18,17 +28,36 @@
   }
 }
 
-.backdrop-fadeIn {
+@keyframes item-backdrop-fade-out {
+  from {
+    opacity: 0.9;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
+.item-backdrop-fade-in {
+  -webkit-animation-name: item-backdrop-fade-in;
+  animation-name: item-backdrop-fade-in;
+}
+
+.item-backdrop-fade-out {
+  -webkit-animation-name: item-backdrop-fade-out;
+  animation-name: item-backdrop-fade-out;
+}
+
+.item-backdrop {
+  background-color: black;
   z-index: 200;
-  -webkit-animation-name: backdrop-fadeIn;
-  animation-name: backdrop-fadeIn;
 }
 
-#itemModal {
+#item-modal {
   z-index: 201;
 }
 
-.itemModalContent {
+.item-modal-content {
   max-height: 90vh;
   height: 90vh;
 }

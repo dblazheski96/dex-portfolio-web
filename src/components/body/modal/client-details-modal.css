@@ -8,6 +8,16 @@
   }
 }
 
+@-webkit-keyframes client-details-backdrop-fadeOut {
+  from {
+    opacity: 1.0;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
 @keyframes client-details-backdrop-fadeIn {
   from {
     opacity: 0;
@@ -18,13 +28,31 @@
   }
 }
 
+@keyframes client-details-backdrop-fadeOut {
+  from {
+    opacity: 1.0;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
 .client-details-backdrop-fadeIn {
-  background-color: white;
-  z-index: 100;
   -webkit-animation-name: client-details-backdrop-fadeIn;
   animation-name: client-details-backdrop-fadeIn;
 }
 
-#clientDetailsModal {
+.client-details-backdrop-fadeOut {
+  -webkit-animation-name: client-details-backdrop-fadeOut;
+  animation-name: client-details-backdrop-fadeOut;
+}
+
+.client-details-backdrop {
+  background-color: white;
+  z-index: 100;
+}
+
+#client-details-modal {
   z-index: 101;
 }

@@ -1,138 +1,203 @@
 import { NavOpt } from '../models/nav-opt'
 import { ItemModel } from '../models/item-model'
 import { ItemClientModel } from '../models/item-client-model'
+import { ItemClientDetailsModel } from '../models/item-client-details-model'
+import { ClientPanelModel } from '../models/client-panel-model'
 
 export const logoItems: Array<ItemModel> = [
   {
+    id: 1,
     title: "esnaf",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/XiXpcju.jpg",
     imgPopup: "https://i.imgur.com/XiXpcju.jpg"
   } as ItemModel,
   {
+    id: 2,
     title: "startup-club-skopje",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/0VOnmlV.jpg",
     imgPopup: "https://i.imgur.com/0VOnmlV.jpg"
   } as ItemModel,
   {
+    id: 3,
     title: "uv-commerce",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/2lvRsPR.jpg",
     imgPopup: "https://i.imgur.com/2lvRsPR.jpg"
   } as ItemModel,
   {
+    id: 4,
     title: "hristina-design",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/lMbB6jm.jpg",
     imgPopup: "https://i.imgur.com/lMbB6jm.jpg"
   } as ItemModel,
   {
+    id: 5,
     title: "studentski-dom",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/ko33Xvk.jpg",
     imgPopup: "https://i.imgur.com/ko33Xvk.jpg"
   } as ItemModel,
   {
+    id: 6,
     title: "gradiste-2",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/60jfbb2.jpg",
     imgPopup: "https://i.imgur.com/60jfbb2.jpg"
   } as ItemModel,
   {
+    id: 7,
     title: "furbo",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/8X8g7y3.jpg",
     imgPopup: "https://i.imgur.com/8X8g7y3.jpg"
   } as ItemModel,
   {
+    id: 8,
     title: "konimex",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/NAy2MGW.jpg",
     imgPopup: "https://i.imgur.com/NAy2MGW.jpg"
   } as ItemModel,
   {
+    id: 9,
     title: "dex-logo",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/iLi3VXC.jpg",
     imgPopup: "https://i.imgur.com/iLi3VXC.jpg"
   } as ItemModel,
   {
+    id: 10,
     title: "connected",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/5kOZicG.jpg",
     imgPopup: "https://i.imgur.com/5kOZicG.jpg"
   } as ItemModel,
   {
+    id: 11,
     title: "the-missing-piece",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/FePwx9B.jpg",
     imgPopup: "https://i.imgur.com/FePwx9B.jpg"
   } as ItemModel,
   {
+    id: 12,
     title: "uk-on",
     category: NavOpt.Logos,
     img: "https://i.imgur.com/2i6G4uz.jpg",
     imgPopup: "https://i.imgur.com/2i6G4uz.jpg"
-  } as ItemModel,
+  } as ItemModel
 ]
+
+
+
+export const clientPanels: Array<ClientPanelModel> = [
+  {
+    id: 1,
+    name: "Panel 1",
+    panelItems: logoItems.filter(logo => logo.id <= 6)
+  } as ClientPanelModel,
+  {
+    id: 2,
+    name: "Panel 2",
+    panelItems: logoItems.filter(logo => logo.id > 3 && logo.id <= 9)
+  } as ClientPanelModel,
+  {
+    id: 3,
+    name: "Panel 3",
+    panelItems: logoItems.filter(logo => logo.id > 4)
+  } as ClientPanelModel,
+  {
+    id: 4,
+    name: "Panel 4",
+    panelItems: logoItems.filter(logo => logo.id > 1)
+  } as ClientPanelModel,
+  {
+    id: 5,
+    name: "Panel 5",
+    panelItems: logoItems.filter(logo => logo.id < 8)
+  } as ClientPanelModel
+]
+
+
+
+export const clientDetailsItems: Array<ItemClientDetailsModel> = [
+  {
+    id: 1,
+    desc: "desc 1",
+    panels: clientPanels.filter(panel => panel.id < 3)
+  } as ItemClientDetailsModel,
+  {
+    id: 2,
+    desc: "desc 2",
+    panels: clientPanels.filter(panel => panel.id >= 2)
+  } as ItemClientDetailsModel,
+  {
+    id: 3,
+    desc: "desc 3",
+    panels: clientPanels.filter(panel => panel.id === 3)
+  } as ItemClientDetailsModel,
+  {
+    id: 4,
+    desc: "desc 4",
+    panels: clientPanels.filter(panel => panel.id < 4)
+  } as ItemClientDetailsModel,
+  {
+    id: 5,
+    desc: "desc 5",
+    panels: clientPanels.filter(panel => panel.id === 2)
+  } as ItemClientDetailsModel,
+  {
+    id: 6,
+    desc: "desc 6",
+    panels: clientPanels.filter(panel => panel.id < 3)
+  } as ItemClientDetailsModel
+]
+
+
 
 export const clientItems: Array<ItemClientModel> = [
   {
     id: 1,
-    title: "mc-stojan",
-    desc: "desc1",
-    category: NavOpt.Clients,
+    title: "Client Item 1",
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
+    clientDetails: clientDetailsItems[0]
   } as ItemClientModel,
   {
     id: 2,
-    title: "mc-stojan",
-    desc: "desc2",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
+    title: "Client Item 2",
+    img: "https://i.imgur.com/iLi3VXC.jpg",
+    clientDetails: clientDetailsItems[1]
   } as ItemClientModel,
   {
     id: 3,
-    title: "mc-stojan",
-    desc: "desc3",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
+    title: "Client Item 3",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[2]
   } as ItemClientModel,
   {
     id: 4,
-    title: "mc-stojan",
-    desc: "desc4",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
+    title: "Client Item 4",
+    img: "https://i.imgur.com/8X8g7y3.jpg",
+    clientDetails: clientDetailsItems[3]
   } as ItemClientModel,
   {
     id: 5,
-    title: "mc-stojan",
-    desc: "desc5",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
+    title: "Client Item 5",
+    img: "https://i.imgur.com/2i6G4uz.jpg",
+    clientDetails: clientDetailsItems[4]
   } as ItemClientModel,
   {
     id: 6,
-    title: "mc-stojan",
-    desc: "desc6",
-    category: NavOpt.Clients,
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    imgPopup: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetailItems: logoItems
-  } as ItemClientModel,
+    title: "Client Item 6",
+    img: "https://i.imgur.com/FePwx9B.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel
 ]
+
+
 
 export const printItems: Array<ItemModel> = [
     // {
