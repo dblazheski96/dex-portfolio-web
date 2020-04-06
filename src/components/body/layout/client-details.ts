@@ -14,7 +14,7 @@ const ClientDetailsLayout = (onBackIconClick: () => void): JQuery<HTMLDivElement
           .on("click", onBackIconClick)
       ),
       $("<div>").addClass("row justify-content-center").append(
-        $("<div>").addClass("col-3").append(
+        $("<div>").addClass("col-10 col-lg-3").append(
           $("<div>").addClass("container-fluid").append(
             $("<div>").addClass("row justify-content-center").append(
               $("<div>").addClass("col-8").append(
