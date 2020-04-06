@@ -12,8 +12,8 @@ const events = {
 }
 
 const ClientPanelItem = (item: ItemModel): JQuery<HTMLDivElement> =>
-  $("<div>").addClass("col-sm-9 col-lg-5 col-xl-4").append(
-    $("<div>").addClass("item-client animated zoomIn delay-1s").append(
+  $("<div>").addClass("client-panel-item-parent col-sm-9 col-lg-5 col-xl-4").append(
+    $("<div>").addClass("client-panel-item animated zoomIn delay-1s").append(
       $("<div>").addClass("animated fadeIn delay-1s slower").append(
         $("<img>").addClass("img-fluid").attr("src", item.img).attr("alt", item.title)
           .on("click", () => events.onClientPanelItemClick(item))

@@ -1,3 +1,15 @@
+.client-item-parent {
+  padding: 0px;
+}
+
 .client-item {
-  margin: 18%;
+  margin: 12%;
+}
+
+.client-img {
+  box-shadow: 4px 4px 7px rgb(231, 231, 231);
+}
+
+.client-title {
+  margin: 8%;
 }
