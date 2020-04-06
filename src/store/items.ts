@@ -88,12 +88,122 @@ export const logoItems: Array<ItemModel> = [
     category: NavOpt.Logos,
     img: "https://i.imgur.com/2i6G4uz.jpg",
     imgPopup: "https://i.imgur.com/2i6G4uz.jpg"
-  } as ItemModel
+  } as ItemModel,
+  {
+    id: 101,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/awDNVym.jpg",
+    imgPopup: "https://i.imgur.com/awDNVym.jpg"
+  } as ItemModel,
+  {
+    id: 102,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/PhvPDh9.jpg",
+    imgPopup: "https://i.imgur.com/PhvPDh9.jpg"
+  } as ItemModel,
+  {
+    id: 103,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/fC1G35u.jpg",
+    imgPopup: "https://i.imgur.com/fC1G35u.jpg"
+  } as ItemModel,
+  {
+    id: 104,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/0Nh9wE0.jpg",
+    imgPopup: "https://i.imgur.com/0Nh9wE0.jpg"
+  } as ItemModel,
+  {
+    id: 105,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/PeypIfI.jpg",
+    imgPopup: "https://i.imgur.com/PeypIfI.jpg"
+  } as ItemModel,
+  {
+    id: 106,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/6wxdGIl.jpg",
+    imgPopup: "https://i.imgur.com/6wxdGIl.jpg"
+  } as ItemModel,
+  {
+    id: 107,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/wUE9sjI.jpg",
+    imgPopup: "https://i.imgur.com/wUE9sjI.jpg"
+  } as ItemModel,
+  {
+    id: 108,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/Plw8NSn.jpg",
+    imgPopup: "https://i.imgur.com/Plw8NSn.jpg"
+  } as ItemModel,
+  {
+    id: 109,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/aZtKQPT.jpg",
+    imgPopup: "https://i.imgur.com/aZtKQPT.jpg"
+  } as ItemModel,
+  {
+    id: 110,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/NQRc8BR.jpg",
+    imgPopup: "https://i.imgur.com/NQRc8BR.jpg"
+  } as ItemModel,
+  {
+    id: 111,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/ueSfQxR.jpg",
+    imgPopup: "https://i.imgur.com/ueSfQxR.jpg"
+  } as ItemModel,
+  {
+    id: 112,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/gzz6HMi.jpg",
+    imgPopup: "https://i.imgur.com/gzz6HMi.jpg"
+  } as ItemModel,
+  {
+    id: 113,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/qNpCJsN.jpg",
+    imgPopup: "https://i.imgur.com/qNpCJsN.jpg"
+  } as ItemModel,
+  {
+    id: 114,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/d0wqSib.jpg",
+    imgPopup: "https://i.imgur.com/d0wqSib.jpg"
+  } as ItemModel,
+  {
+    id: 115,
+    title: "",
+    category: NavOpt.Logos,
+    img: "https://i.imgur.com/qD6ytq8.jpg",
+    imgPopup: "https://i.imgur.com/qD6ytq8.jpg"
+  } as ItemModel,
 ]
 
 
 
 export const clientPanels: Array<ClientPanelModel> = [
+  {
+    id: 101,
+    name: "Social Media Posts",
+    panelItems: logoItems.filter(logo => logo.id > 100)
+  } as ClientPanelModel,
   {
     id: 1,
     name: "Panel 1",
@@ -124,6 +234,11 @@ export const clientPanels: Array<ClientPanelModel> = [
 
 
 export const clientDetailsItems: Array<ItemClientDetailsModel> = [
+  {
+    id: 101,
+    desc: `ДДС Билдинг е брендот кој ќе биде препознатлив во својата професионалност и квалитет на изградба за сите наши објекти во иднина. \nСо голема верба и желба за работа веруваме дека нашиот нов проект ќе биде една успешна приказна и одлична реализација. Искуството стекнато со работа во другите сектори од нашиот бизнис ни го дадоа потребното знаење и искуство за она што е неопходно за еден комфорен, пријатен и квалитетен дом.`,
+    panels: clientPanels.filter(panel => panel.id === 101)
+  } as ItemClientDetailsModel,
   {
     id: 1,
     desc: "desc 1",
@@ -160,39 +275,81 @@ export const clientDetailsItems: Array<ItemClientDetailsModel> = [
 
 export const clientItems: Array<ItemClientModel> = [
   {
+    id: 101,
+    title: "Real Estate",
+    img: "https://i.imgur.com/lYZwVk6.jpg",
+    clientDetails: clientDetailsItems.filter(cd => cd.id === 101)[0]
+  } as ItemClientModel,
+  {
     id: 1,
     title: "Client Item 1",
     img: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetails: clientDetailsItems[0]
+    clientDetails: clientDetailsItems[1]
   } as ItemClientModel,
   {
     id: 2,
     title: "Client Item 2",
     img: "https://i.imgur.com/iLi3VXC.jpg",
-    clientDetails: clientDetailsItems[1]
+    clientDetails: clientDetailsItems[2]
   } as ItemClientModel,
   {
     id: 3,
     title: "Client Item 3",
     img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[2]
+    clientDetails: clientDetailsItems[3]
   } as ItemClientModel,
   {
     id: 4,
     title: "Client Item 4",
     img: "https://i.imgur.com/8X8g7y3.jpg",
-    clientDetails: clientDetailsItems[3]
+    clientDetails: clientDetailsItems[4]
   } as ItemClientModel,
   {
     id: 5,
     title: "Client Item 5",
     img: "https://i.imgur.com/2i6G4uz.jpg",
-    clientDetails: clientDetailsItems[4]
+    clientDetails: clientDetailsItems[5]
   } as ItemClientModel,
   {
     id: 6,
     title: "Client Item 6",
     img: "https://i.imgur.com/FePwx9B.jpg",
+    clientDetails: clientDetailsItems[6]
+  } as ItemClientModel,
+  {
+    id: 7,
+    title: "Client Item 7",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel,
+  {
+    id: 8,
+    title: "Client Item 8",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel,
+  {
+    id: 9,
+    title: "Client Item 9",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel,
+  {
+    id: 10,
+    title: "Client Item 10",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel,
+  {
+    id: 11,
+    title: "Client Item 11",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
+    clientDetails: clientDetailsItems[5]
+  } as ItemClientModel,
+  {
+    id: 12,
+    title: "Client Item 12",
+    img: "https://i.imgur.com/NAy2MGW.jpg",
     clientDetails: clientDetailsItems[5]
   } as ItemClientModel
 ]

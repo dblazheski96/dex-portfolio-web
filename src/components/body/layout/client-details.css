@@ -1,0 +1,22 @@
+.client-panel-parent {
+  padding: 0px;
+}
+
+.client-panel {
+  /* box-shadow: 1px 1px 9px rgb(231, 231, 231); */
+  font-size: large;
+  /* font-weight: bold; */
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding: 10px;
+  margin: 10px 1.5px;
+}
+
+.client-details-title {
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.client-details-desc {
+  font-size: small;
+}
