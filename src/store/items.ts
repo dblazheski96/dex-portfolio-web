@@ -89,110 +89,1144 @@ export const logoItems: Array<ItemModel> = [
     img: "https://i.imgur.com/2i6G4uz.jpg",
     imgPopup: "https://i.imgur.com/2i6G4uz.jpg"
   } as ItemModel,
+]
+
+
+
+export const clientDetailsItems: Array<ItemModel> = [
   {
-    id: 101,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/awDNVym.jpg",
-    imgPopup: "https://i.imgur.com/awDNVym.jpg"
+      id: 20101,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/1Ntk9HE.jpg",
+      imgPopup: "https://i.imgur.com/1Ntk9HE.jpg"
   } as ItemModel,
   {
-    id: 102,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/PhvPDh9.jpg",
-    imgPopup: "https://i.imgur.com/PhvPDh9.jpg"
+      id: 20102,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/0Rx87ws.jpg",
+      imgPopup: "https://i.imgur.com/0Rx87ws.jpg"
   } as ItemModel,
   {
-    id: 103,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/fC1G35u.jpg",
-    imgPopup: "https://i.imgur.com/fC1G35u.jpg"
+      id: 20103,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/PFTwqOM.jpg",
+      imgPopup: "https://i.imgur.com/PFTwqOM.jpg"
   } as ItemModel,
   {
-    id: 104,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/0Nh9wE0.jpg",
-    imgPopup: "https://i.imgur.com/0Nh9wE0.jpg"
+      id: 20104,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/F4k5U8i.jpg",
+      imgPopup: "https://i.imgur.com/F4k5U8i.jpg"
   } as ItemModel,
   {
-    id: 105,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/PeypIfI.jpg",
-    imgPopup: "https://i.imgur.com/PeypIfI.jpg"
+      id: 20105,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/5MGeMmx.jpg",
+      imgPopup: "https://i.imgur.com/5MGeMmx.jpg"
   } as ItemModel,
   {
-    id: 106,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/6wxdGIl.jpg",
-    imgPopup: "https://i.imgur.com/6wxdGIl.jpg"
+      id: 20106,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/jCWTSUN.jpg",
+      imgPopup: "https://i.imgur.com/jCWTSUN.jpg"
   } as ItemModel,
   {
-    id: 107,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/wUE9sjI.jpg",
-    imgPopup: "https://i.imgur.com/wUE9sjI.jpg"
+      id: 20107,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ApwC1NQ.jpg",
+      imgPopup: "https://i.imgur.com/ApwC1NQ.jpg"
   } as ItemModel,
   {
-    id: 108,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/Plw8NSn.jpg",
-    imgPopup: "https://i.imgur.com/Plw8NSn.jpg"
+      id: 20108,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/MYuWmN7.jpg",
+      imgPopup: "https://i.imgur.com/MYuWmN7.jpg"
   } as ItemModel,
   {
-    id: 109,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/aZtKQPT.jpg",
-    imgPopup: "https://i.imgur.com/aZtKQPT.jpg"
+      id: 20109,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/wOm8hSl.jpg",
+      imgPopup: "https://i.imgur.com/wOm8hSl.jpg"
   } as ItemModel,
   {
-    id: 110,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/NQRc8BR.jpg",
-    imgPopup: "https://i.imgur.com/NQRc8BR.jpg"
+      id: 20110,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/lHvt0Ih.jpg",
+      imgPopup: "https://i.imgur.com/lHvt0Ih.jpg"
   } as ItemModel,
   {
-    id: 111,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/ueSfQxR.jpg",
-    imgPopup: "https://i.imgur.com/ueSfQxR.jpg"
+      id: 20111,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Ko9X5Mu.jpg",
+      imgPopup: "https://i.imgur.com/Ko9X5Mu.jpg"
   } as ItemModel,
   {
-    id: 112,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/gzz6HMi.jpg",
-    imgPopup: "https://i.imgur.com/gzz6HMi.jpg"
+      id: 20112,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/S0f9lVY.jpg",
+      imgPopup: "https://i.imgur.com/S0f9lVY.jpg"
   } as ItemModel,
   {
-    id: 113,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/qNpCJsN.jpg",
-    imgPopup: "https://i.imgur.com/qNpCJsN.jpg"
+      id: 20113,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/n53Qyhl.jpg",
+      imgPopup: "https://i.imgur.com/n53Qyhl.jpg"
   } as ItemModel,
   {
-    id: 114,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/d0wqSib.jpg",
-    imgPopup: "https://i.imgur.com/d0wqSib.jpg"
+      id: 20114,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/PTna5Og.jpg",
+      imgPopup: "https://i.imgur.com/PTna5Og.jpg"
   } as ItemModel,
   {
-    id: 115,
-    title: "",
-    category: NavOpt.Logos,
-    img: "https://i.imgur.com/qD6ytq8.jpg",
-    imgPopup: "https://i.imgur.com/qD6ytq8.jpg"
+      id: 20115,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/fiIXdq9.jpg",
+      imgPopup: "https://i.imgur.com/fiIXdq9.jpg"
+  } as ItemModel,
+  {
+      id: 20116,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/OXFHatQ.jpg",
+      imgPopup: "https://i.imgur.com/OXFHatQ.jpg"
+  } as ItemModel,
+  {
+      id: 20117,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/SN4CK72.jpg",
+      imgPopup: "https://i.imgur.com/SN4CK72.jpg"
+  } as ItemModel,
+  {
+      id: 20118,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/V3EINao.jpg",
+      imgPopup: "https://i.imgur.com/V3EINao.jpg"
+  } as ItemModel,
+  {
+      id: 20119,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/JJelRZs.jpg",
+      imgPopup: "https://i.imgur.com/JJelRZs.jpg"
+  } as ItemModel,
+  {
+      id: 20120,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/zXPbmaq.jpg",
+      imgPopup: "https://i.imgur.com/zXPbmaq.jpg"
+  } as ItemModel,
+  {
+      id: 20121,
+      title: "DDS Building",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/dKaFQls.jpg",
+      imgPopup: "https://i.imgur.com/dKaFQls.jpg"
+  } as ItemModel,
+
+
+
+  {
+      id: 20201,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/SJDYcBm.jpg",
+      imgPopup: "https://i.imgur.com/SJDYcBm.jpg",
+  } as ItemModel,
+  {
+      id: 20202,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/KBwWass.jpg",
+      imgPopup: "https://i.imgur.com/KBwWass.jpg",
+  } as ItemModel,
+  {
+      id: 20203,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/kC4Jham.jpg",
+      imgPopup: "https://i.imgur.com/kC4Jham.jpg",
+  } as ItemModel,
+  {
+      id: 20204,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/CUpZATi.jpg",
+      imgPopup: "https://i.imgur.com/CUpZATi.jpg",
+  } as ItemModel,
+  {
+      id: 20205,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/qrwhA4V.jpg",
+      imgPopup: "https://i.imgur.com/qrwhA4V.jpg",
+  } as ItemModel,
+  {
+      id: 20206,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/aBHsEME.jpg",
+      imgPopup: "https://i.imgur.com/aBHsEME.jpg",
+  } as ItemModel,
+  {
+      id: 20207,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/P8sWQk9.jpg",
+      imgPopup: "https://i.imgur.com/P8sWQk9.jpg",
+  } as ItemModel,
+  {
+      id: 20208,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/jFkQ49u.jpg",
+      imgPopup: "https://i.imgur.com/jFkQ49u.jpg",
+  } as ItemModel,
+  {
+      id: 20209,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/w9NTNZJ.jpg",
+      imgPopup: "https://i.imgur.com/w9NTNZJ.jpg",
+  } as ItemModel,
+  {
+      id: 20210,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/yWuafqS.jpg",
+      imgPopup: "https://i.imgur.com/yWuafqS.jpg",
+  } as ItemModel,
+  {
+      id: 20211,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/rtkR0ov.jpg",
+      imgPopup: "https://i.imgur.com/rtkR0ov.jpg",
+  } as ItemModel,
+  {
+      id: 20212,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/RyvJ8vr.jpg",
+      imgPopup: "https://i.imgur.com/RyvJ8vr.jpg",
+  } as ItemModel,
+  {
+      id: 20213,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/V1CvEuF.jpg",
+      imgPopup: "https://i.imgur.com/V1CvEuF.jpg",
+  } as ItemModel,
+  {
+      id: 20214,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/kyPFuao.jpg",
+      imgPopup: "https://i.imgur.com/kyPFuao.jpg",
+  } as ItemModel,
+  {
+      id: 20215,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/MC9iOi2.jpg",
+      imgPopup: "https://i.imgur.com/MC9iOi2.jpg",
+  } as ItemModel,
+  {
+      id: 20216,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/lhrlXW1.jpg",
+      imgPopup: "https://i.imgur.com/lhrlXW1.jpg",
+  } as ItemModel,
+  {
+      id: 20217,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/91GdkPF.jpg",
+      imgPopup: "https://i.imgur.com/91GdkPF.jpg",
+  } as ItemModel,
+  {
+      id: 20218,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/mLXAyBD.jpg",
+      imgPopup: "https://i.imgur.com/mLXAyBD.jpg",
+  } as ItemModel,
+  {
+      id: 20219,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/VSpv1X7.jpg",
+      imgPopup: "https://i.imgur.com/VSpv1X7.jpg",
+  } as ItemModel,
+  {
+      id: 20220,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/UHzQSLh.jpg",
+      imgPopup: "https://i.imgur.com/UHzQSLh.jpg",
+  } as ItemModel,
+  {
+      id: 20221,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/aEY5rGO.jpg",
+      imgPopup: "https://i.imgur.com/aEY5rGO.jpg",
+  } as ItemModel,
+  {
+      id: 20222,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/l69Qs1c.jpg",
+      imgPopup: "https://i.imgur.com/l69Qs1c.jpg",
+  } as ItemModel,
+  {
+      id: 20223,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/HSux5GP.jpg",
+      imgPopup: "https://i.imgur.com/HSux5GP.jpg",
+  } as ItemModel,
+  {
+      id: 20224,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/AAyonaI.jpg",
+      imgPopup: "https://i.imgur.com/AAyonaI.jpg",
+  } as ItemModel,
+  {
+      id: 20225,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ryOM6et.jpg",
+      imgPopup: "https://i.imgur.com/ryOM6et.jpg",
+  } as ItemModel,
+  {
+      id: 20226,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/owCRynU.jpg",
+      imgPopup: "https://i.imgur.com/owCRynU.jpg",
+  } as ItemModel,
+  {
+      id: 20227,
+      title: "KlikniJadi",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/KqXNTr6.jpg",
+      imgPopup: "https://i.imgur.com/KqXNTr6.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20301,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/7X93fmI.jpg",
+      imgPopup: "https://i.imgur.com/7X93fmI.jpg",
+  } as ItemModel,
+  {
+      id: 20302,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/rFXrWCZ.jpg",
+      imgPopup: "https://i.imgur.com/rFXrWCZ.jpg",
+  } as ItemModel,
+  {
+      id: 20303,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/a6w2mdW.jpg",
+      imgPopup: "https://i.imgur.com/a6w2mdW.jpg",
+  } as ItemModel,
+  {
+      id: 20304,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/YMdtxkT.jpg",
+      imgPopup: "https://i.imgur.com/YMdtxkT.jpg",
+  } as ItemModel,
+  {
+      id: 20305,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/NRJdANg.jpg",
+      imgPopup: "https://i.imgur.com/NRJdANg.jpg",
+  } as ItemModel,
+  {
+      id: 20306,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/RPwd9Jl.jpg",
+      imgPopup: "https://i.imgur.com/RPwd9Jl.jpg",
+  } as ItemModel,
+  {
+      id: 20307,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/LPnOOOQ.jpg",
+      imgPopup: "https://i.imgur.com/LPnOOOQ.jpg",
+  } as ItemModel,
+  {
+      id: 20308,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/qQtqETP.jpg",
+      imgPopup: "https://i.imgur.com/qQtqETP.jpg",
+  } as ItemModel,
+  {
+      id: 20309,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/HGpKlTy.jpg",
+      imgPopup: "https://i.imgur.com/HGpKlTy.jpg",
+  } as ItemModel,
+  {
+      id: 20310,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Y2HNttF.jpg",
+      imgPopup: "https://i.imgur.com/Y2HNttF.jpg",
+  } as ItemModel,
+  {
+      id: 20311,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/kiCzZYr.jpg",
+      imgPopup: "https://i.imgur.com/kiCzZYr.jpg",
+  } as ItemModel,
+  {
+      id: 20312,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Advs1dH.jpg",
+      imgPopup: "https://i.imgur.com/Advs1dH.jpg",
+  } as ItemModel,
+  {
+      id: 20313,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/NcEGyoD.jpg",
+      imgPopup: "https://i.imgur.com/NcEGyoD.jpg",
+  } as ItemModel,
+  {
+      id: 20314,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/3oiYuJC.jpg",
+      imgPopup: "https://i.imgur.com/3oiYuJC.jpg",
+  } as ItemModel,
+  {
+      id: 20315,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/wJBKMnB.jpg",
+      imgPopup: "https://i.imgur.com/wJBKMnB.jpg",
+  } as ItemModel,
+  {
+      id: 20316,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ETVyyCb.jpg",
+      imgPopup: "https://i.imgur.com/ETVyyCb.jpg",
+  } as ItemModel,
+  {
+      id: 20317,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6NIXpjJ.jpg",
+      imgPopup: "https://i.imgur.com/6NIXpjJ.jpg",
+  } as ItemModel,
+  {
+      id: 20318,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/QuNL0gL.jpg",
+      imgPopup: "https://i.imgur.com/QuNL0gL.jpg",
+  } as ItemModel,
+  {
+      id: 20319,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ZDnCfvA.jpg",
+      imgPopup: "https://i.imgur.com/ZDnCfvA.jpg",
+  } as ItemModel,
+  {
+      id: 20320,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/q27tRPH.jpg",
+      imgPopup: "https://i.imgur.com/q27tRPH.jpg",
+  } as ItemModel,
+  {
+      id: 20321,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/lXuJlKm.jpg",
+      imgPopup: "https://i.imgur.com/lXuJlKm.jpg",
+  } as ItemModel,
+  {
+      id: 20322,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/f2AsDza.jpg",
+      imgPopup: "https://i.imgur.com/f2AsDza.jpg",
+  } as ItemModel,
+  {
+      id: 20323,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/t1BERfX.jpg",
+      imgPopup: "https://i.imgur.com/t1BERfX.jpg",
+  } as ItemModel,
+  {
+      id: 20324,
+      title: "OzoneGold",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/UejR5v5.jpg",
+      imgPopup: "https://i.imgur.com/UejR5v5.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20401,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/JlprCQf.jpg",
+      imgPopup: "https://i.imgur.com/JlprCQf.jpg",
+  } as ItemModel,
+  {
+      id: 20402,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/I5CtFYy.jpg",
+      imgPopup: "https://i.imgur.com/I5CtFYy.jpg",
+  } as ItemModel,
+  {
+      id: 20403,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/bXJevcE.jpg",
+      imgPopup: "https://i.imgur.com/bXJevcE.jpg",
+  } as ItemModel,
+  {
+      id: 20404,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/jyg5bx8.jpg",
+      imgPopup: "https://i.imgur.com/jyg5bx8.jpg",
+  } as ItemModel,
+  {
+      id: 20405,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/2wfwGTD.jpg",
+      imgPopup: "https://i.imgur.com/2wfwGTD.jpg",
+  } as ItemModel,
+  {
+      id: 20406,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/C6Tg7MV.jpg",
+      imgPopup: "https://i.imgur.com/C6Tg7MV.jpg",
+  } as ItemModel,
+  {
+      id: 20407,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/hZD3kMX.jpg",
+      imgPopup: "https://i.imgur.com/hZD3kMX.jpg",
+  } as ItemModel,
+  {
+      id: 20408,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6m6KO72.jpg",
+      imgPopup: "https://i.imgur.com/6m6KO72.jpg",
+  } as ItemModel,
+  {
+      id: 20409,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/nqesa34.jpg",
+      imgPopup: "https://i.imgur.com/nqesa34.jpg",
+  } as ItemModel,
+  {
+      id: 20410,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/X7wxEe2.jpg",
+      imgPopup: "https://i.imgur.com/X7wxEe2.jpg",
+  } as ItemModel,
+  {
+      id: 20411,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Da0OBOJ.jpg",
+      imgPopup: "https://i.imgur.com/Da0OBOJ.jpg",
+  } as ItemModel,
+  {
+      id: 20412,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/KEuJtYx.jpg",
+      imgPopup: "https://i.imgur.com/KEuJtYx.jpg",
+  } as ItemModel,
+  {
+      id: 20413,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6eqZ9tC.jpg",
+      imgPopup: "https://i.imgur.com/6eqZ9tC.jpg",
+  } as ItemModel,
+  {
+      id: 20414,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/w58ZbAu.jpg",
+      imgPopup: "https://i.imgur.com/w58ZbAu.jpg",
+  } as ItemModel,
+  {
+      id: 20415,
+      title: "CentralPark",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/B9Jb5jT.jpg",
+      imgPopup: "https://i.imgur.com/B9Jb5jT.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20501,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/sVJBXIz.jpg",
+      imgPopup: "https://i.imgur.com/sVJBXIz.jpg",
+  } as ItemModel,
+  {
+      id: 20502,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/hQPR7JL.jpg",
+      imgPopup: "https://i.imgur.com/hQPR7JL.jpg",
+  } as ItemModel,
+  {
+      id: 20503,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/DC0bSix.jpg",
+      imgPopup: "https://i.imgur.com/DC0bSix.jpg",
+  } as ItemModel,
+  {
+      id: 20504,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/IuKhKeY.jpg",
+      imgPopup: "https://i.imgur.com/IuKhKeY.jpg",
+  } as ItemModel,
+  {
+      id: 20505,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/cws8byn.jpg",
+      imgPopup: "https://i.imgur.com/cws8byn.jpg",
+  } as ItemModel,
+  {
+      id: 20506,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/jThUNOF.jpg",
+      imgPopup: "https://i.imgur.com/jThUNOF.jpg",
+  } as ItemModel,
+  {
+      id: 20507,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ywswfZt.jpg",
+      imgPopup: "https://i.imgur.com/ywswfZt.jpg",
+  } as ItemModel,
+  {
+      id: 20508,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Hl39nHs.jpg",
+      imgPopup: "https://i.imgur.com/Hl39nHs.jpg",
+  } as ItemModel,
+  {
+      id: 20509,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/MQbueuI.jpg",
+      imgPopup: "https://i.imgur.com/MQbueuI.jpg",
+  } as ItemModel,
+  {
+      id: 20510,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/paS9mc2.jpg",
+      imgPopup: "https://i.imgur.com/paS9mc2.jpg",
+  } as ItemModel,
+  {
+      id: 20511,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/jBUudRu.jpg",
+      imgPopup: "https://i.imgur.com/jBUudRu.jpg",
+  } as ItemModel,
+  {
+      id: 20512,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/V5PDIGQ.jpg",
+      imgPopup: "https://i.imgur.com/V5PDIGQ.jpg",
+  } as ItemModel,
+  {
+      id: 20513,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/PBTNq3w.jpg",
+      imgPopup: "https://i.imgur.com/PBTNq3w.jpg",
+  } as ItemModel,
+  {
+      id: 20514,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/QgdaSNJ.jpg",
+      imgPopup: "https://i.imgur.com/QgdaSNJ.jpg",
+  } as ItemModel,
+  {
+      id: 20515,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6Gs5Iar.jpg",
+      imgPopup: "https://i.imgur.com/6Gs5Iar.jpg",
+  } as ItemModel,
+  {
+      id: 20516,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/KZABYFK.jpg",
+      imgPopup: "https://i.imgur.com/KZABYFK.jpg",
+  } as ItemModel,
+  {
+      id: 20517,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/7HtP0kb.jpg",
+      imgPopup: "https://i.imgur.com/7HtP0kb.jpg",
+  } as ItemModel,
+  {
+      id: 20518,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/TDg9eIe.jpg",
+      imgPopup: "https://i.imgur.com/TDg9eIe.jpg",
+  } as ItemModel,
+  {
+      id: 20519,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/rk4JxUb.jpg",
+      imgPopup: "https://i.imgur.com/rk4JxUb.jpg",
+  } as ItemModel,
+  {
+      id: 20520,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/MDpIPlW.jpg",
+      imgPopup: "https://i.imgur.com/MDpIPlW.jpg",
+  } as ItemModel,
+  {
+      id: 20521,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/tuZ2ndS.jpg",
+      imgPopup: "https://i.imgur.com/tuZ2ndS.jpg",
+  } as ItemModel,
+  {
+      id: 20522,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/EJfd1SO.jpg",
+      imgPopup: "https://i.imgur.com/EJfd1SO.jpg",
+  } as ItemModel,
+  {
+      id: 20523,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/bY7RQR8.jpg",
+      imgPopup: "https://i.imgur.com/bY7RQR8.jpg",
+  } as ItemModel,
+  {
+      id: 20524,
+      title: "CrossfitSkopje",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/mP2zHEH.jpg",
+      imgPopup: "https://i.imgur.com/mP2zHEH.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20601,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/R9lySBd.jpg",
+      imgPopup: "https://i.imgur.com/R9lySBd.jpg",
+  } as ItemModel,
+  {
+      id: 20602,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6UM2kQt.jpg",
+      imgPopup: "https://i.imgur.com/6UM2kQt.jpg",
+  } as ItemModel,
+  {
+      id: 20603,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/yqbB8BP.jpg",
+      imgPopup: "https://i.imgur.com/yqbB8BP.jpg",
+  } as ItemModel,
+  {
+      id: 20604,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/mjMlpEy.jpg",
+      imgPopup: "https://i.imgur.com/mjMlpEy.jpg",
+  } as ItemModel,
+  {
+      id: 20605,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/W82ZkRV.jpg",
+      imgPopup: "https://i.imgur.com/W82ZkRV.jpg",
+  } as ItemModel,
+  {
+      id: 20606,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/L1kEsyK.jpg",
+      imgPopup: "https://i.imgur.com/L1kEsyK.jpg",
+  } as ItemModel,
+  {
+      id: 20607,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/CRxfvzI.jpg",
+      imgPopup: "https://i.imgur.com/CRxfvzI.jpg",
+  } as ItemModel,
+  {
+      id: 20608,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/5Zuuuvv.jpg",
+      imgPopup: "https://i.imgur.com/5Zuuuvv.jpg",
+  } as ItemModel,
+  {
+      id: 20609,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/VqWdqmA.jpg",
+      imgPopup: "https://i.imgur.com/VqWdqmA.jpg",
+  } as ItemModel,
+  {
+      id: 20610,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/kvQXRY7.jpg",
+      imgPopup: "https://i.imgur.com/kvQXRY7.jpg",
+  } as ItemModel,
+  {
+      id: 20611,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/XQUx8vc.jpg",
+      imgPopup: "https://i.imgur.com/XQUx8vc.jpg",
+  } as ItemModel,
+  {
+      id: 20612,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/8NhOjTx.png",
+      imgPopup: "https://i.imgur.com/8NhOjTx.png",
+  } as ItemModel,
+  {
+      id: 20613,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/cdWW7S1.png",
+      imgPopup: "https://i.imgur.com/cdWW7S1.png",
+  } as ItemModel,
+  {
+      id: 20614,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/7QDmGKh.jpg",
+      imgPopup: "https://i.imgur.com/7QDmGKh.jpg",
+  } as ItemModel,
+  {
+      id: 20615,
+      title: "Monin",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/MhXB7HP.jpg",
+      imgPopup: "https://i.imgur.com/MhXB7HP.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20701,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/QXQxfKg.jpg",
+      imgPopup: "https://i.imgur.com/QXQxfKg.jpg",
+  } as ItemModel,
+  {
+      id: 20702,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/8KqHDiC.jpg",
+      imgPopup: "https://i.imgur.com/8KqHDiC.jpg",
+  } as ItemModel,
+  {
+      id: 20703,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Hs2XrN6.jpg",
+      imgPopup: "https://i.imgur.com/Hs2XrN6.jpg",
+  } as ItemModel,
+  {
+      id: 20704,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Z68umVZ.jpg",
+      imgPopup: "https://i.imgur.com/Z68umVZ.jpg",
+  } as ItemModel,
+  {
+      id: 20705,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ljnXp53.jpg",
+      imgPopup: "https://i.imgur.com/ljnXp53.jpg",
+  } as ItemModel,
+  {
+      id: 20706,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/AX96Eqh.jpg",
+      imgPopup: "https://i.imgur.com/AX96Eqh.jpg",
+  } as ItemModel,
+  {
+      id: 20707,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/yqvT1pU.jpg",
+      imgPopup: "https://i.imgur.com/yqvT1pU.jpg",
+  } as ItemModel,
+  {
+      id: 20708,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/7Cg4Ley.jpg",
+      imgPopup: "https://i.imgur.com/7Cg4Ley.jpg",
+  } as ItemModel,
+  {
+      id: 20709,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/dq1jWh5.jpg",
+      imgPopup: "https://i.imgur.com/dq1jWh5.jpg",
+  } as ItemModel,
+  {
+      id: 20710,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/Qly56WT.jpg",
+      imgPopup: "https://i.imgur.com/Qly56WT.jpg",
+  } as ItemModel,
+  {
+      id: 20711,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/rIccbfJ.jpg",
+      imgPopup: "https://i.imgur.com/rIccbfJ.jpg",
+  } as ItemModel,
+  {
+      id: 20712,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/AYlpxcM.jpg",
+      imgPopup: "https://i.imgur.com/AYlpxcM.jpg",
+  } as ItemModel,
+  {
+      id: 20713,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/8OnxqLu.jpg",
+      imgPopup: "https://i.imgur.com/8OnxqLu.jpg",
+  } as ItemModel,
+  {
+      id: 20714,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/HFSmgGI.jpg",
+      imgPopup: "https://i.imgur.com/HFSmgGI.jpg",
+  } as ItemModel,
+  {
+      id: 20715,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/LGWvb24.jpg",
+      imgPopup: "https://i.imgur.com/LGWvb24.jpg",
+  } as ItemModel,
+  {
+      id: 20716,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/qBxXKhq.jpg",
+      imgPopup: "https://i.imgur.com/qBxXKhq.jpg",
+  } as ItemModel,
+  {
+      id: 20717,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/uvoitbn.jpg",
+      imgPopup: "https://i.imgur.com/uvoitbn.jpg",
+  } as ItemModel,
+  {
+      id: 20718,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/7SiVB57.jpg",
+      imgPopup: "https://i.imgur.com/7SiVB57.jpg",
+  } as ItemModel,
+  {
+      id: 20719,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/0w3zN2P.jpg",
+      imgPopup: "https://i.imgur.com/0w3zN2P.jpg",
+  } as ItemModel,
+  {
+      id: 20720,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/ttFRBbf.jpg",
+      imgPopup: "https://i.imgur.com/ttFRBbf.jpg",
+  } as ItemModel,
+  {
+      id: 20721,
+      title: "Continental",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/tm0T3k7.jpg",
+      imgPopup: "https://i.imgur.com/tm0T3k7.jpg",
+  } as ItemModel,
+
+
+
+  {
+      id: 20801,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/5SRrf4G.jpg",
+      imgPopup: "https://i.imgur.com/5SRrf4G.jpg",
+  } as ItemModel,
+  {
+      id: 20802,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/6sWLVJs.jpg",
+      imgPopup: "https://i.imgur.com/6sWLVJs.jpg",
+  } as ItemModel,
+  {
+      id: 20803,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/5tckXtP.jpg",
+      imgPopup: "https://i.imgur.com/5tckXtP.jpg",
+  } as ItemModel,
+  {
+      id: 20804,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/btiV1DO.jpg",
+      imgPopup: "https://i.imgur.com/btiV1DO.jpg",
+  } as ItemModel,
+  {
+      id: 20805,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/0VsegUX.jpg",
+      imgPopup: "https://i.imgur.com/0VsegUX.jpg",
+  } as ItemModel,
+  {
+      id: 20806,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/YCovF7F.jpg",
+      imgPopup: "https://i.imgur.com/YCovF7F.jpg",
+  } as ItemModel,
+  {
+      id: 20807,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/X7oUTAf.jpg",
+      imgPopup: "https://i.imgur.com/X7oUTAf.jpg",
+  } as ItemModel,
+  {
+      id: 20808,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/SpvwEUV.jpg",
+      imgPopup: "https://i.imgur.com/SpvwEUV.jpg",
+  } as ItemModel,
+  {
+      id: 20809,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/vpKX21o.jpg",
+      imgPopup: "https://i.imgur.com/vpKX21o.jpg",
+  } as ItemModel,
+  {
+      id: 20810,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/LvMGhET.jpg",
+      imgPopup: "https://i.imgur.com/LvMGhET.jpg",
+  } as ItemModel,
+  {
+      id: 20811,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/inyZzH8.jpg",
+      imgPopup: "https://i.imgur.com/inyZzH8.jpg",
+  } as ItemModel,
+  {
+      id: 20812,
+      title: "AsteraHotel",
+      category: NavOpt.Clients,
+      img: "https://i.imgur.com/PY4vdgd.jpg",
+      imgPopup: "https://i.imgur.com/PY4vdgd.jpg",
   } as ItemModel,
 ]
 
@@ -200,291 +1234,184 @@ export const logoItems: Array<ItemModel> = [
 
 export const clientPanels: Array<ClientPanelModel> = [
   {
-    id: 101,
-    name: "Social Media Posts",
-    panelItems: logoItems.filter(logo => logo.id > 100)
+    id: 20101,
+    name: "BUS ADVERTISEMENT",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20101 && cdi.id <= 20103)
   } as ClientPanelModel,
   {
-    id: 1,
-    name: "Panel 1",
-    panelItems: logoItems.filter(logo => logo.id <= 6)
+    id: 20102,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20104 && cdi.id <= 20121)
+  } as ClientPanelModel,
+
+  {
+    id: 20201,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20201 && cdi.id <= 20212)
   } as ClientPanelModel,
   {
-    id: 2,
-    name: "Panel 2",
-    panelItems: logoItems.filter(logo => logo.id > 3 && logo.id <= 9)
+    id: 20202,
+    name: "QUOTES",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20213 && cdi.id <= 20218)
   } as ClientPanelModel,
   {
-    id: 3,
-    name: "Panel 3",
-    panelItems: logoItems.filter(logo => logo.id > 4)
+    id: 20203,
+    name: "THREE RELATED POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20219 && cdi.id <= 20227)
+  } as ClientPanelModel,
+
+  {
+    id: 20301,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20301 && cdi.id <= 20318)
   } as ClientPanelModel,
   {
-    id: 4,
-    name: "Panel 4",
-    panelItems: logoItems.filter(logo => logo.id > 1)
+    id: 20302,
+    name: "INSTAGRAM STORY HIGHLIGHTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20319 && cdi.id <= 20324)
+  } as ClientPanelModel,
+
+  {
+    id: 20401,
+    name: "POSTERS FOR BALKAN STARS (MUSICIANS)",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20401 && cdi.id <= 20412)
   } as ClientPanelModel,
   {
-    id: 5,
-    name: "Panel 5",
-    panelItems: logoItems.filter(logo => logo.id < 8)
-  } as ClientPanelModel
+    id: 20402,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20413 && cdi.id <= 20415)
+  } as ClientPanelModel,
+
+  {
+    id: 20501,
+    name: "QUOTES",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20501 && cdi.id <= 20524)
+  } as ClientPanelModel,
+
+  {
+    id: 20601,
+    name: "SOCIAL MEDIA POSTS ( MONIN MACEDONIA )",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20601 && cdi.id <= 20609)
+  } as ClientPanelModel,
+  {
+    id: 20602,
+    name: "INSTAGRAM STORY HIGHLIGHTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20610 && cdi.id <= 20615)
+  } as ClientPanelModel,
+
+  {
+    id: 20701,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20701 && cdi.id <= 20715)
+  } as ClientPanelModel,
+  {
+    id: 20702,
+    name: "INSTAGRAM STORY HIGHLIGHTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20716 && cdi.id <= 20721)
+  } as ClientPanelModel,
+
+  {
+    id: 20801,
+    name: "SOCIAL MEDIA POSTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20801 && cdi.id <= 20809)
+  } as ClientPanelModel,
+  {
+    id: 20802,
+    name: "INSTAGRAM STORY HIGHLIGHTS",
+    panelItems: clientDetailsItems.filter(cdi => cdi.id >= 20810 && cdi.id <= 20812)
+  } as ClientPanelModel,
 ]
 
-
-
-export const clientDetailsItems: Array<ItemClientDetailsModel> = [
+export const clientDetails: Array<ItemClientDetailsModel> = [
   {
-    id: 101,
-    desc: `ДДС Билдинг е брендот кој ќе биде препознатлив во својата професионалност и квалитет на изградба за сите наши објекти во иднина. \nСо голема верба и желба за работа веруваме дека нашиот нов проект ќе биде една успешна приказна и одлична реализација. Искуството стекнато со работа во другите сектори од нашиот бизнис ни го дадоа потребното знаење и искуство за она што е неопходно за еден комфорен, пријатен и квалитетен дом.`,
-    panels: clientPanels.filter(panel => panel.id === 101)
+    id: 20100,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20100 && panel.id < 20200)
   } as ItemClientDetailsModel,
   {
-    id: 1,
-    desc: "desc 1",
-    panels: clientPanels.filter(panel => panel.id < 3)
+    id: 20200,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20200 && panel.id < 20300)
   } as ItemClientDetailsModel,
   {
-    id: 2,
-    desc: "desc 2",
-    panels: clientPanels.filter(panel => panel.id >= 2)
+    id: 20300,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20300 && panel.id < 20400)
   } as ItemClientDetailsModel,
   {
-    id: 3,
-    desc: "desc 3",
-    panels: clientPanels.filter(panel => panel.id === 3)
+    id: 20400,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20400 && panel.id < 20500)
   } as ItemClientDetailsModel,
   {
-    id: 4,
-    desc: "desc 4",
-    panels: clientPanels.filter(panel => panel.id < 4)
+    id: 20500,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20500 && panel.id < 20600)
   } as ItemClientDetailsModel,
   {
-    id: 5,
-    desc: "desc 5",
-    panels: clientPanels.filter(panel => panel.id === 2)
+    id: 20600,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20600 && panel.id < 20700)
   } as ItemClientDetailsModel,
   {
-    id: 6,
-    desc: "desc 6",
-    panels: clientPanels.filter(panel => panel.id < 3)
-  } as ItemClientDetailsModel
+    id: 20700,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20700 && panel.id < 20800)
+  } as ItemClientDetailsModel,
+  {
+    id: 20800,
+    desc: "",
+    panels: clientPanels.filter(panel => panel.id > 20800 && panel.id < 20900)
+  } as ItemClientDetailsModel,
 ]
-
-
 
 export const clientItems: Array<ItemClientModel> = [
   {
-    id: 101,
-    title: "Real Estate",
-    img: "https://i.imgur.com/lYZwVk6.jpg",
-    clientDetails: clientDetailsItems.filter(cd => cd.id === 101)[0]
+      id: 20100,
+      title: "Real Estate",
+      img: "https://i.imgur.com/6XsEnBX.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20100)[0]
   } as ItemClientModel,
   {
-    id: 1,
-    title: "Client Item 1",
-    img: "https://i.imgur.com/ko33Xvk.jpg",
-    clientDetails: clientDetailsItems[1]
+      id: 20200,
+      title: "Food Delivery",
+      img: "https://i.imgur.com/aLAbaqP.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20200)[0]
   } as ItemClientModel,
   {
-    id: 2,
-    title: "Client Item 2",
-    img: "https://i.imgur.com/iLi3VXC.jpg",
-    clientDetails: clientDetailsItems[2]
+      id: 20300,
+      title: "Health Care Products",
+      img: "https://i.imgur.com/wgdsf7H.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20300)[0]
   } as ItemClientModel,
   {
-    id: 3,
-    title: "Client Item 3",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[3]
+      id: 20400,
+      title: "Night Club",
+      img: "https://i.imgur.com/XY8FBDF.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20400)[0]
   } as ItemClientModel,
   {
-    id: 4,
-    title: "Client Item 4",
-    img: "https://i.imgur.com/8X8g7y3.jpg",
-    clientDetails: clientDetailsItems[4]
+      id: 20500,
+      title: "Crossfit Club",
+      img: "https://i.imgur.com/X5A8EIM.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20500)[0]
   } as ItemClientModel,
   {
-    id: 5,
-    title: "Client Item 5",
-    img: "https://i.imgur.com/2i6G4uz.jpg",
-    clientDetails: clientDetailsItems[5]
+      id: 20600,
+      title: "Flavored Syrups",
+      img: "https://i.imgur.com/pKviGZ5.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20600)[0]
   } as ItemClientModel,
   {
-    id: 6,
-    title: "Client Item 6",
-    img: "https://i.imgur.com/FePwx9B.jpg",
-    clientDetails: clientDetailsItems[6]
+      id: 20700,
+      title: "Weddings & Hotel",
+      img: "https://i.imgur.com/HbZlsjN.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20700)[0]
   } as ItemClientModel,
   {
-    id: 7,
-    title: "Client Item 7",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
+      id: 20800,
+      title: "Hotel",
+      img: "https://i.imgur.com/Bwd9b0I.jpg",
+      clientDetails: clientDetails.filter(cd => cd.id === 20800)[0]
   } as ItemClientModel,
-  {
-    id: 8,
-    title: "Client Item 8",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
-  } as ItemClientModel,
-  {
-    id: 9,
-    title: "Client Item 9",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
-  } as ItemClientModel,
-  {
-    id: 10,
-    title: "Client Item 10",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
-  } as ItemClientModel,
-  {
-    id: 11,
-    title: "Client Item 11",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
-  } as ItemClientModel,
-  {
-    id: 12,
-    title: "Client Item 12",
-    img: "https://i.imgur.com/NAy2MGW.jpg",
-    clientDetails: clientDetailsItems[5]
-  } as ItemClientModel
-]
-
-
-
-export const printItems: Array<ItemModel> = [
-    // {
-  //   title: "vedrina-i-srekja",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/br5RMpF.jpg",
-  //   imgPopup: "https://i.imgur.com/br5RMpF.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "104m-komfor",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/7YQccar.jpg",
-  //   imgPopup: "https://i.imgur.com/7YQccar.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "dds-building",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/RLAvv1o.jpg",
-  //   imgPopup: "https://i.imgur.com/RLAvv1o.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "wedding",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/4QD8b2m.png",
-  //   imgPopup: "https://i.imgur.com/4QD8b2m.png"
-  // } as ItemModel,
-  // {
-  //   title: "winter-2019-challange",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/aDdzrR7.jpg",
-  //   imgPopup: "https://i.imgur.com/aDdzrR7.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "honeymoon",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/eAmR0KW.png",
-  //   imgPopup: "https://i.imgur.com/eAmR0KW.png"
-  // } as ItemModel,
-  // {
-  //   title: "eho",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/hoNtaMC.jpg",
-  //   imgPopup: "https://i.imgur.com/hoNtaMC.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "esnaf-",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/7QWABiS.jpg",
-  //   imgPopup: "https://i.imgur.com/7QWABiS.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "50m-ljubov",
-  //   category: NavOpt.Print,
-  //   img: "https://i.imgur.com/CBmBY4A.jpg",
-  //   imgPopup: "https://i.imgur.com/CBmBY4A.jpg"
-  // } as ItemModel
-]
-
-export const socialMediaItems: Array<ItemModel> = [
-    // {
-  //   title: "dzenan",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/n2liodb.jpg",
-  //   imgPopup: "https://i.imgur.com/n2liodb.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "jala-brat",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/3yIGQCx.jpg",
-  //   imgPopup: "https://i.imgur.com/3yIGQCx.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "thcf",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/QeE3aGr.jpg",
-  //   imgPopup: "https://i.imgur.com/QeE3aGr.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "teodora",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/geUi7ol.png",
-  //   imgPopup: "https://i.imgur.com/geUi7ol.png"
-  // } as ItemModel,
-  // {
-  //   title: "natasa-bekvalac",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/cXemCdg.jpg",
-  //   imgPopup: "https://i.imgur.com/cXemCdg.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "amar-gile",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/TeaAFDs.png",
-  //   imgPopup: "https://i.imgur.com/TeaAFDs.png"
-  // } as ItemModel,
-
-  // {
-  //   title: "mc-stojan",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/8sBb6os.jpg",
-  //   imgPopup: "https://i.imgur.com/8sBb6os.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "bouble-b",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/KXXX2vn.jpg",
-  //   imgPopup: "https://i.imgur.com/KXXX2vn.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "pedja",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/pvcpk2g.png",
-  //   imgPopup: "https://i.imgur.com/pvcpk2g.png"
-  // } as ItemModel,
-  // {
-  //   title: "otvaranje-esnaf",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/M6Q1gse.png",
-  //   imgPopup: "https://i.imgur.com/M6Q1gse.png"
-  // } as ItemModel,
-  // {
-  //   title: "eho-na-minatoto",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/ay4m87h.jpg",
-  //   imgPopup: "https://i.imgur.com/ay4m87h.jpg"
-  // } as ItemModel,
-  // {
-  //   title: "all-day-party",
-  //   category: NavOpt.Clients,
-  //   img: "https://i.imgur.com/Mhnvnfh.jpg",
-  //   imgPopup: "https://i.imgur.com/Mhnvnfh.jpg"
-  // } as ItemModel,
 ]

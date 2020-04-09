@@ -8,7 +8,7 @@ const NavBar = (): JQuery<HTMLUListElement> =>
   $("<ul>").addClass("navbar-style nav justify-content-center").append(
     navItem(NavOpt.Logos, "LOGOS"),
     navItem(NavOpt.Clients, "CLIENTS"),
-    navItem(NavOpt.Services, "SERVICES")
+    // navItem(NavOpt.Services, "SERVICES(coming soon)")
   ) as JQuery<HTMLUListElement>
 
 export default NavBar
