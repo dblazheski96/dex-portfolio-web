@@ -1,7 +1,7 @@
 import * as $ from 'jquery'
 
 import './client-details-modal.css'
-import helpers from '../helpers'
+import helpers from '../../../services/helpers'
 import store from '../../../store/store'
 import ClientDetailsLayout from '../layout/client-details'
 

@@ -6,14 +6,14 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 
 import './app.css'
 import Header from './components/header/header'
-import Navbar from './components/nav/nav-bar'
+import NavBar from './components/nav/nav-bar'
 import Body from './components/body/body'
 
-const App = (): void => {
+const App = async (): Promise<void> => {
   $("#root").html("").append(
     Header(),
-    Navbar(),
-    Body()
+    NavBar(),
+    await Body()
   )
 }
 
