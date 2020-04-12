@@ -2,7 +2,7 @@ import * as $ from 'jquery'
 
 import './client-details.css'
 import { ClientItem } from '../../../models/client-item-model'
-import ClientPanelItem from '../item/client-panel-item'
+import PanelItemComponent from '../item/panel-item'
 
 const ClientDetailsLayout = (clientItem: ClientItem, onBackIconClick: () => void): JQuery<HTMLDivElement> =>
   $("<div>").addClass("row justify-content-center").append(
@@ -18,7 +18,7 @@ const ClientDetailsLayout = (clientItem: ClientItem, onBackIconClick: () => void
           $("<div>").addClass("container-fluid").append(
             $("<div>").addClass("row justify-content-center").append(
               $("<div>").addClass("col-8").append(
-                $("<img>").addClass("img-fluid").attr("src", `data:image/jpeg;base64,${clientItem.img}`).attr("alt", clientItem.title)
+                $("<img>").addClass("img-fluid").attr("src", `data:image/png;base64,${clientItem.img}`).attr("alt", clientItem.title)
               )
             ),
             $("<div>").addClass("row justify-content-center").append(
@@ -49,7 +49,7 @@ const ClientDetailsLayout = (clientItem: ClientItem, onBackIconClick: () => void
                       $("<div>").addClass("row justify-content-center").append(
                         panel.items
                           .sort((a, b) => a.orderIndex - b.orderIndex)
-                          .map(item => ClientPanelItem(item))
+                          .map(item => PanelItemComponent(item))
                       )
                     )
                   )

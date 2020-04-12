@@ -1,7 +1,8 @@
 .body {
-  margin-top: 50px;
+  margin-top: 4em;
 }
 
-no-layout {
-  font-size: small;
+.no-layout {
+  /* this class is just a placeholder */
+  font-size: small; 
 }

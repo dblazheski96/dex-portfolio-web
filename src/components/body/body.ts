@@ -8,14 +8,12 @@ import dataService from '../../services/dataService'
 
 import LogosLayout from './layout/logos'
 import ClientsLayout from './layout/clients'
-import ServicesLayout from './layout/services'
 
 const Body = async (): Promise<JQuery<HTMLDivElement>> => {
   Loader.showLoader()
   const $bodyContent = 
     store.navOpt === NavOpt.Logos ? LogosLayout(await dataService.getLogos()) :
     store.navOpt === NavOpt.SocialMedia ? ClientsLayout(await dataService.getClients()) :
-    store.navOpt === NavOpt.Services ? ServicesLayout() :
     $("<div>").addClass("no-layout")
   Loader.hideLoader()
 

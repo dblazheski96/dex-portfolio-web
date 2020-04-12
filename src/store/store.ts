@@ -1,8 +1,4 @@
 import { NavOpt } from '../models/nav-opt'
-import { ItemModel } from '../models/item-model'
-
-import { clientItems } from './items'
-import { ItemClientModel } from '../models/item-client-model'
 import { ClientItem } from '../models/client-item-model'
 
 type GlobalStore = {
@@ -11,7 +7,6 @@ type GlobalStore = {
   itemModalCurrentItem: { id: string, img: string }
   clientDetailsModalOpen: boolean
   clientDetailsModalCurrentItem: ClientItem
-  currentClientPanelItem: ItemModel
 }
 
 // Initial store values
@@ -20,8 +15,7 @@ const store: GlobalStore = {
   itemModalOpen: false,
   itemModalCurrentItem: null,
   clientDetailsModalOpen: false,
-  clientDetailsModalCurrentItem: null,
-  currentClientPanelItem: clientItems[0].clientDetails.panels[0].panelItems[0]
+  clientDetailsModalCurrentItem: null
 }
 
 export default store

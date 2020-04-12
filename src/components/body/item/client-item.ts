@@ -25,7 +25,7 @@ const ClientItemComponent = (item: ClientItem): JQuery<HTMLDivElement> =>
   $("<div>").addClass("client-item-parent col-sm-9 col-lg-5 col-xl-3").append(
     $("<div>").addClass("client-item animated zoomIn delay-1s").append(
       $("<div>").addClass("animated fadeIn delay-1s slower").append(
-        $("<img>").addClass("client-img img-fluid").attr("src", `data:image/jpeg;base64,${item.img}`).attr("alt", item.title)
+        $("<img>").addClass("client-img img-fluid").attr("src", `data:image/png;base64,${item.img}`).attr("alt", item.title)
           .on("click", () => events.onClientItemClick(item)),
         $("<div>").addClass("client-title text-center").text(item.title)
       )

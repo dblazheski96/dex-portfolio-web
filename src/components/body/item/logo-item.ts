@@ -7,7 +7,11 @@ import ItemPopupModal from '../../modal/item-popup-modal'
 
 const events = {
   onLogoItemClick: (logoItem: LogoItem) => {
-    store.itemModalCurrentItem = { id: logoItem.id, img: logoItem.imgPopup }
+    store.itemModalCurrentItem = { 
+      id: logoItem.id, 
+      img: logoItem.imgPopup !== "" ? logoItem.imgPopup : logoItem.img 
+    }
+    
     ItemPopupModal.showModal()
   }
 }

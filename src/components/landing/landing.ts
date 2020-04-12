@@ -12,7 +12,7 @@ const Landing = (): JQuery<HTMLDivElement> =>
         Header()
       )
     ),
-    $("<div>").addClass("row justify-content-center").append(
+    $("<div>").addClass("click-to-continue row justify-content-center").append(
       NavItem(NavOpt.SocialMedia, "Click here to continue")
     )
   ) as JQuery<HTMLDivElement>

@@ -12,8 +12,7 @@ const SideNavBar = (): JQuery<HTMLDivElement> =>
     ),
     $("<ul>").addClass("side-navbar-ul nav justify-content-center").append(
       navItem(NavOpt.Logos, "LOGOS"),
-      navItem(NavOpt.SocialMedia, "SOCIAL MEDIA"),
-      // navItem(NavOpt.Services, "SERVICES(coming soon)")
+      navItem(NavOpt.SocialMedia, "SOCIAL MEDIA")
     ) as JQuery<HTMLUListElement>
   ) as JQuery<HTMLDivElement>
 

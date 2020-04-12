@@ -1,9 +1,9 @@
 .client-item-parent {
-  padding: 0px;
+  padding: 0em;
 }
 
 .client-item {
-  margin: 12%;
+  margin: 1.5em;
 }
 
 .client-img {
@@ -11,5 +11,5 @@
 }
 
 .client-title {
-  margin: 8%;
+  margin: 1em;
 }
