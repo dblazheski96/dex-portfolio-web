@@ -3,25 +3,24 @@ import { ItemModel } from '../models/item-model'
 
 import { clientItems } from './items'
 import { ItemClientModel } from '../models/item-client-model'
+import { ClientItem } from '../models/client-item-model'
 
 type GlobalStore = {
   navOpt: NavOpt
   itemModalOpen: boolean
   itemModalCurrentItem: { id: string, img: string }
   clientDetailsModalOpen: boolean
-  clientItems: Array<ItemClientModel>
-  currentClientItem: ItemClientModel
+  clientDetailsModalCurrentItem: ClientItem
   currentClientPanelItem: ItemModel
 }
 
 // Initial store values
 const store: GlobalStore = {
-  navOpt: NavOpt.Clients,
+  navOpt: NavOpt.Landing,
   itemModalOpen: false,
   itemModalCurrentItem: null,
   clientDetailsModalOpen: false,
-  clientItems: clientItems,
-  currentClientItem: clientItems[0],
+  clientDetailsModalCurrentItem: null,
   currentClientPanelItem: clientItems[0].clientDetails.panels[0].panelItems[0]
 }
 

@@ -1,0 +1,12 @@
+.side-navbar {
+  z-index: 50;
+}
+
+.side-navbar-header {
+  margin-top: 8em;
+}
+
+.side-navbar-ul {
+  margin-top: 4em;
+  font-size: 1.4em;
+}

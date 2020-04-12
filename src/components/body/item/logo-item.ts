@@ -3,11 +3,12 @@ import * as $ from 'jquery'
 import './logo-item.css'
 import { LogoItem } from '../../../models/logo-item-model'
 import store from '../../../store/store'
+import ItemPopupModal from '../../modal/item-popup-modal'
 
 const events = {
   onLogoItemClick: (logoItem: LogoItem) => {
     store.itemModalCurrentItem = { id: logoItem.id, img: logoItem.imgPopup }
-    $("#item-popup-modal").modal("show")
+    ItemPopupModal.showModal()
   }
 }
 
