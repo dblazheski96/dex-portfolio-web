@@ -1,0 +1,63 @@
+@-webkit-keyframes item-popup-backdrop-fade-in {
+  from {
+    opacity: 0.0;
+  }
+
+  to {
+    opacity: 0.9;
+  }
+}
+
+@-webkit-keyframes item-popup-backdrop-fade-out {
+  from {
+    opacity: 0.9;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
+@keyframes item-popup-backdrop-fade-in {
+  from {
+    opacity: 0.0;
+  }
+
+  to {
+    opacity: 0.9;
+  }
+}
+
+@keyframes item-popup-backdrop-fade-out {
+  from {
+    opacity: 0.9;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+
+.item-popup-backdrop-fade-in {
+  -webkit-animation-name: item-popup-backdrop-fade-in;
+  animation-name: item-popup-backdrop-fade-in;
+}
+
+.item-popup-backdrop-fade-out {
+  -webkit-animation-name: item-popup-backdrop-fade-out;
+  animation-name: item-popup-backdrop-fade-out;
+}
+
+.item-popup-backdrop {
+  background-color: black;
+  z-index: 200;
+}
+
+#item-popup-modal {
+  z-index: 201;
+}
+
+/* #item-popup-modal-content {
+  max-height: 90vh;
+  height: 90vh;
+} */

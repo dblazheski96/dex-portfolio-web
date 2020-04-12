@@ -1,6 +1,5 @@
 export enum NavOpt {
-  None, 
+  Landing, 
   Logos, 
-  Clients, 
-  Services
+  SocialMedia
 }

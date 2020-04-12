@@ -1,10 +1,10 @@
 import * as $ from 'jquery'
 
 import './client-details.css'
-import store from '../../../store/store'
-import ClientPanelItem from '../item/client-panel-item'
+import { ClientItem } from '../../../models/client-item-model'
+import PanelItemComponent from '../item/panel-item'
 
-const ClientDetailsLayout = (onBackIconClick: () => void): JQuery<HTMLDivElement> =>
+const ClientDetailsLayout = (clientItem: ClientItem, onBackIconClick: () => void): JQuery<HTMLDivElement> =>
   $("<div>").addClass("row justify-content-center").append(
     
     $("<div>").addClass("container-fluid").append(
@@ -18,39 +18,43 @@ const ClientDetailsLayout = (onBackIconClick: () => void): JQuery<HTMLDivElement
           $("<div>").addClass("container-fluid").append(
             $("<div>").addClass("row justify-content-center").append(
               $("<div>").addClass("col-8").append(
-                $("<img>").addClass("img-fluid").attr("src", store.currentClientItem.img).attr("alt", store.currentClientItem.title)
+                $("<img>").addClass("img-fluid").attr("src", `data:image/png;base64,${clientItem.img}`).attr("alt", clientItem.title)
               )
             ),
             $("<div>").addClass("row justify-content-center").append(
               $("<div>").addClass("col-8").append(
-                $("<div>").addClass("client-details-title text-center").text(store.currentClientItem.title)
+                $("<div>").addClass("client-details-title text-center").text(clientItem.title)
               )
             ),
             $("<div>").addClass("row justify-content-center").append(
               $("<div>").addClass("col-8").append(
-                $("<div>").addClass("client-details-desc text-center").text(store.currentClientItem.clientDetails.desc)
+                $("<div>").addClass("client-details-desc text-center").text(clientItem.desc)
               )
             )
           )
         ),
         $("<div>").addClass("col-9").append(
-          store.currentClientItem.clientDetails.panels.map(panel =>
-            $("<div>").addClass("container-fluid").append(
-              $("<div>").addClass("row justify-content-center").append(
-                $("<div>").addClass("col-11").append(
-                  $("<div>").addClass("container-fluid").append(
-                    $("<div>").addClass("row justify-content-center").append(
-                      $("<div>").addClass("client-panel-parent col-12").append(
-                        $("<div>").addClass("client-panel text-center").text(panel.name.toUpperCase())
+          clientItem.panels
+            .sort((a, b) => a.orderIndex - b.orderIndex)
+            .map(panel =>
+              $("<div>").addClass("container-fluid").append(
+                $("<div>").addClass("row justify-content-center").append(
+                  $("<div>").addClass("col-11").append(
+                    $("<div>").addClass("container-fluid").append(
+                      $("<div>").addClass("row justify-content-center").append(
+                        $("<div>").addClass("client-panel-parent col-12").append(
+                          $("<div>").addClass("client-panel text-center").text(panel.name.toUpperCase())
+                        )
+                      ),
+                      $("<div>").addClass("row justify-content-center").append(
+                        panel.items
+                          .sort((a, b) => a.orderIndex - b.orderIndex)
+                          .map(item => PanelItemComponent(item))
                       )
-                    ),
-                    $("<div>").addClass("row justify-content-center").append(
-                      panel.panelItems.map(item => ClientPanelItem(item))
                     )
                   )
                 )
               )
-            )
           )
         )
       )

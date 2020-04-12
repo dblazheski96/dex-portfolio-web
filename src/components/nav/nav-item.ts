@@ -1,5 +1,6 @@
 import * as $ from 'jquery'
 
+import './nav-item.css'
 import { NavOpt } from '../../models/nav-opt'
 import store from '../../store/store'
 import App from '../../app'
@@ -13,7 +14,7 @@ const events = {
 
 const NavItem = (navOpt: NavOpt, text: string): JQuery<HTMLLIElement> =>
   $("<li>").addClass("nav-item").append(
-    $("<div>").addClass("nav-style nav-link").text(text.toUpperCase())
+    $("<div>").addClass("nav-style nav-link text-center").text(text.toUpperCase())
       .on("click", () => events.onItemClick(navOpt)),
   ) as JQuery<HTMLLIElement>
 
