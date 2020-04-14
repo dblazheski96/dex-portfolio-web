@@ -4,3 +4,9 @@
   list-style-type: none;
   cursor: pointer;
 }
+
+.nav-item-active {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: under;
+}

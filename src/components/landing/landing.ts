@@ -2,19 +2,27 @@ import * as $ from 'jquery'
 
 import './landing.css'
 import { NavOpt } from '../../models/nav-opt'
-import Header from '../header/header'
-import NavItem from '../nav/nav-item'
+import store from '../../store/store'
+import App from '../../app'
+import Header, { LetterSpacing } from '../header/header'
+
+const events = {
+  onLandingClick: () => {
+    store.navOpt = NavOpt.SocialMedia
+    App()
+  }
+}
 
 const Landing = (): JQuery<HTMLDivElement> => 
-  $("<div>").addClass("container-fluid").append(
+  $("<div>").addClass("landing-page container-fluid").append(
     $("<div>").addClass("row justify-content-center").append(
-      $("<div>").addClass("col-8 landing-header").append(
-        Header()
+      $("<div>").addClass("col-12 landing-header").append(
+        Header(LetterSpacing.Wide)
       )
     ),
     $("<div>").addClass("click-to-continue row justify-content-center").append(
-      NavItem(NavOpt.SocialMedia, "Click here to continue")
+      $("<div>").addClass("landing-text").text("NEXT")
     )
-  ) as JQuery<HTMLDivElement>
+  ).on("click", events.onLandingClick) as JQuery<HTMLDivElement>
 
 export default Landing

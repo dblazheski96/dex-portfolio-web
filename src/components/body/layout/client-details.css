@@ -10,12 +10,17 @@
   margin: 1em 0em;
 }
 
-.client-details-title {
-  font-size: large;
-  font-weight: bold;
+.client-details-desc {
+  font-size: larger;
+  font-weight: 600;
   margin: 1em;
 }
 
-.client-details-desc {
-  font-size: small;
+.client-details-back {
+  margin: 1em;
+  width: 10%;
+}
+
+.client-details-back:hover {
+  cursor: pointer;
 }

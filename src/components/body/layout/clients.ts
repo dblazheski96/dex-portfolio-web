@@ -5,7 +5,7 @@ import ClientItemComponent from '../item/client-item'
 
 const ClientsLayout = (clientItems: Array<ClientItem>): JQuery<HTMLDivElement> =>
   $("<div>").addClass("row justify-content-center").append(
-    $("<div>").addClass("col-9").append(
+    $("<div>").addClass("col-10").append(
       $("<div>").addClass("container-fluid").append(
         $("<div>").addClass("row justify-content-center").append(
           clientItems

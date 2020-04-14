@@ -8,7 +8,14 @@
 
 .career {
   font-size: 1.05em;
-  /* letter-spacing: 0.9em; */
+}
+
+.carrer-tight {
+  letter-spacing: 0em;
+}
+
+.career-wide {
+  letter-spacing: 0.9em;
 }
 
 .icon {
