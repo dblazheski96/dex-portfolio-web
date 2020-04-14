@@ -2,6 +2,7 @@ import * as $ from 'jquery'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'animate.css'
+import 'hover.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 import './app.css'
@@ -13,8 +14,7 @@ import ClientDetailsModal from './components/modal/client-details-modal'
 import Loader from './components/loader/loader'
 
 import Landing from './components/landing/landing'
-import Header from './components/header/header'
-import SideNavBar from './components/nav/side-nav-bar'
+import NavBar from './components/nav/nav-bar'
 import Body from './components/body/body'
 
 
@@ -37,12 +37,12 @@ const App = async (): Promise<void> => {
   }
   else {
     $app.append(
-      $("<div>").addClass("col-3").append(
-        SideNavBar()
+      $("<div>").addClass("col-xl-3 nav-bar-container").append(
+        NavBar()
       )
     )
     $app.append(
-      $("<div>").addClass("col-9").append(
+      $("<div>").addClass("col-xl-9 body-container").append(
         await Body()
       )
     )

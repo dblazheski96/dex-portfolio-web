@@ -3,11 +3,15 @@
 }
 
 .client-item {
-  margin: 1.5em;
+  margin: 1em;
 }
 
 .client-img {
   box-shadow: 4px 4px 7px rgb(231, 231, 231);
+}
+
+.client-img:hover {
+  cursor: pointer;
 }
 
 .client-title {

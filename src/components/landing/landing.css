@@ -1,7 +1,18 @@
+.landing-page {
+  cursor: pointer;
+  min-height: 99vh;
+}
+
 .landing-header {
   margin-top: 15em;
 }
 
 .click-to-continue {
   margin-top: 3em;
+}
+
+.landing-text {
+  margin-left: 0.5em;
+  font-size: 1.5em;
+  letter-spacing: 0.6em;
 }

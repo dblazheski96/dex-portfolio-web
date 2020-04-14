@@ -5,3 +5,7 @@
 .panel-item-parent {
   padding: 0em;
 }
+
+.panel-item-img:hover {
+  cursor: pointer;
+}

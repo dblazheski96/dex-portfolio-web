@@ -1,0 +1,12 @@
+.nav-bar {
+  z-index: 50;
+}
+
+.nav-bar-header {
+  margin-top: 8em;
+}
+
+.nav-bar-ul {
+  margin-top: 4em;
+  font-size: 1.2em;
+}
